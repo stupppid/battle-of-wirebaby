@@ -1,0 +1,2927 @@
+fileFormatVersion: 2
+guid: 7f1e243eb26f8a841a2d513228252a3e
+timeCreated: 1471742177
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Advanced_Biped_rig
+    100002: BD_Chest_jnt
+    100004: BD_Head_jnt
+    100006: BD_Head_Tip_jnt
+    100008: BD_Neck_jnt
+    100010: BD_Pelvis_Base_jnt
+    100012: BD_Pelvis_End_jnt
+    100014: BD_Spine_01_jnt
+    100016: BD_Spine_02_jnt
+    100018: BD_Spine_03_jnt
+    100020: BD_Spine_04_jnt
+    100022: Bind_null
+    100024: Blend_Pelvis_algn
+    100026: Blend_Spine_null
+    100028: BLND_Chest_jnt
+    100030: BLND_Head_jnt
+    100032: BLND_Head_Tip_jnt
+    100034: BLND_Neck_jnt
+    100036: BLND_Pelvis_Base_jnt
+    100038: BLND_Pelvis_End_jnt
+    100040: BLND_Spine_01_jnt
+    100042: BLND_Spine_02_jnt
+    100044: BLND_Spine_03_jnt
+    100046: BLND_Spine_04_jnt
+    100048: BLND_Spine_05_jnt
+    100050: Chest_algn
+    100052: Chest_con_
+    100054: FK_Pelvis_01_jnt
+    100056: FK_Pelvis_algn
+    100058: FK_Pelvis_con_
+    100060: FK_Spine_01_con_
+    100062: FK_Spine_01_jnt
+    100064: FK_Spine_02_con_
+    100066: FK_Spine_02_jnt
+    100068: FK_Spine_03_jnt
+    100070: FK_Spine_04_jnt
+    100072: FK_Spine_05_jnt
+    100074: FK_Spine_null
+    100076: FKPelvis_02_jnt
+    100078: //RootNode
+    100080: Head_algn
+    100082: Head_pos_algn
+    100084: Head_pos_rot_algn
+    100086: Head_pos_rot_algn_targ
+    100088: Hips_con_
+    100090: IK_Pelvis_01_jnt
+    100092: IK_Pelvis_02_jnt
+    100094: IK_Pelvis_algn
+    100096: IK_Spine_01_jnt
+    100098: IK_Spine_02_jnt
+    100100: IK_Spine_03_jnt
+    100102: IK_Spine_04_jnt
+    100104: IK_Spine_05_jnt
+    100106: IK_Spine_null
+    100108: L_BD_Collar_jnt
+    100110: L_BD_Collar_Tip_jnt
+    100112: L_BD_NB_Ankle_jnt
+    100114: L_BD_NB_Ball_jnt
+    100116: L_BD_NB_Forearm_Twist_01_jnt
+    100118: L_BD_NB_Forearm_Twist_02_jnt
+    100120: L_BD_NB_Forearm_Twist_05_tip_jnt
+    100122: L_BD_NB_Hip_jnt
+    100124: L_BD_NB_Knee_jnt
+    100126: L_BD_NB_Shoulder_jnt
+    100128: L_BD_NB_Toes_jnt
+    100130: L_BD_Wrist_01_jnt
+    100132: L_BD_Wrist_02_jnt
+    100134: L_BLND_Collar_jnt
+    100136: L_BLND_Collar_Tip_jnt
+    100138: L_Collar_algn
+    100140: L_Collar_root_algn
+    100142: L_Collar_root_Follow_chest_algn
+    100144: L_Collar_targ
+    100146: L_FK_Ankle_con_
+    100148: L_FK_Ankle_drvr
+    100150: L_FK_Bicep_pole
+    100152: L_FK_Elbow_con_
+    100154: L_FK_Hip_con_
+    100156: L_FK_Knee_con_
+    100158: L_FK_pos_algn
+    100160: L_FK_pos_rot_algn
+    100162: L_FK_pos_rot_targ
+    100164: L_FK_Root_algn
+    100166: L_FK_Shoulder_con_
+    100168: L_FK_targ
+    100170: L_FK_targ_2
+    100172: L_Foot_nb_con_
+    100174: L_Forearm_Twist_null
+    100176: L_Hand_nb_con_
+    100178: L_Hand_null
+    100180: L_IK_Arm_nb_con_
+    100182: L_IK_Arm_nb_forearm_twist_algn1
+    100184: L_IK_Arm_nb_forearm_twist_algn2
+    100186: L_IK_Arm_nb_forearm_twist_goal1
+    100188: L_IK_Arm_nb_forearm_twist_goal2
+    100190: L_IK_Arm_nb_forearm_twist_targ1
+    100192: L_IK_Bicep_pole
+    100194: L_IK_Leg_nb_con_
+    100196: L_IK_targ
+    100198: L_IK_targ_2
+    100200: L_IK_Wrist_nb_Tip_targ_goal
+    100202: L_NB_Ankle_sIK_goal
+    100204: L_NB_Arm_no_bendy_null
+    100206: L_NB_Ball_goal
+    100208: L_NB_Ball_Rock_Inner_null
+    100210: L_NB_Ball_Rock_Outer_null
+    100212: L_NB_Ball_Twist_null
+    100214: L_NB_BD_Ankle_jnt
+    100216: L_NB_BD_Arm_null
+    100218: L_NB_BD_Ball_jnt
+    100220: L_NB_BD_Leg_null
+    100222: L_NB_BD_Toes_jnt
+    100224: L_NB_BLND_Elbow_jnt
+    100226: L_NB_BLND_Forearm_Twist_01_jnt
+    100228: L_NB_BLND_Forearm_Twist_02_jnt
+    100230: L_NB_BLND_Forearm_Twist_05_tip_jnt
+    100232: L_NB_BLND_Shoulder_jnt
+    100234: L_NB_BLND_Wrist_Tip_jnt
+    100236: L_NB_FK_algn
+    100238: L_NB_FK_Ankle_algn
+    100240: L_NB_FK_Ankle_jnt
+    100242: L_NB_FK_Ankle_Tip_jnt
+    100244: L_NB_FK_Ball_jnt
+    100246: L_NB_FK_Elbow_jnt
+    100248: L_NB_FK_Foot_algn
+    100250: L_NB_FK_Hip_jnt
+    100252: L_NB_FK_Knee_jnt
+    100254: L_NB_FK_Leg_PV
+    100256: L_NB_FK_null
+    100258: L_NB_FK_Shoulder_jnt
+    100260: L_NB_FK_Toes_jnt
+    100262: L_NB_FK_Wrist_Tip_jnt
+    100264: L_NB_Heel_Rot_null
+    100266: L_NB_Hip_jnt
+    100268: L_NB_IK_Ankle_jnt
+    100270: L_NB_IK_Ankle_Tip_goal
+    100272: L_NB_IK_Ankle_Tip_jnt
+    100274: L_NB_IK_Ankle_upv_targ
+    100276: L_NB_IK_Arm_aim_upv_algn
+    100278: L_NB_IK_Arm_algn
+    100280: L_NB_IK_Arm_Twist_null
+    100282: L_NB_IK_Ball_jnt
+    100284: L_NB_IK_Ball_upv_targ
+    100286: L_NB_IK_Bicep_pole
+    100288: L_NB_IK_Elbow_jnt
+    100290: L_NB_IK_Foot_algn
+    100292: L_NB_IK_Hip_jnt
+    100294: L_NB_IK_Knee_jnt
+    100296: L_NB_IK_Leg_aim_upv_algn
+    100298: L_NB_IK_Leg_algn
+    100300: L_NB_IK_Leg_PV_con_
+    100302: L_NB_IK_Leg_Twist_null
+    100304: L_NB_IK_Rot_algn
+    100306: L_NB_IK_Shoulder_jnt
+    100308: L_NB_IK_Toes_jnt
+    100310: L_NB_IK_upv_null
+    100312: L_NB_IK_Wrist_Tip_jnt
+    100314: L_NB_Knee_jnt
+    100316: L_NB_Leg_no_bendy_null
+    100318: L_NB_Leg_nulls
+    100320: L_NB_targ
+    100322: L_NB_Toe_goal
+    100324: L_NB_Toe_Pivot_null
+    100326: L_NB_Toe_Wiggle_null
+    100328: L_NB_Wrist_01_jnt
+    100330: L_NB_Wrist_02_jnt
+    100332: L_Palm_algn
+    100334: L_PV_Chest_Follow_targ
+    100336: L_PV_con_
+    100338: L_PV_Follow_algn
+    100340: L_PV_Free_Follow_targ
+    100342: Layout_con_
+    100344: Master_con_
+    100346: Neck_algn
+    100348: Neck_algn_targ
+    100350: R_BD_Collar_jnt
+    100352: R_BD_Collar_Tip_jnt
+    100354: R_BD_NB_Ankle_jnt
+    100356: R_BD_NB_Ball_jnt
+    100358: R_BD_NB_Forearm_Twist_01_jnt
+    100360: R_BD_NB_Forearm_Twist_02_jnt
+    100362: R_BD_NB_Forearm_Twist_05_tip_jnt
+    100364: R_BD_NB_Hip_jnt
+    100366: R_BD_NB_Knee_jnt
+    100368: R_BD_NB_Shoulder_jnt
+    100370: R_BD_NB_Toes_jnt
+    100372: R_BD_Wrist_01_jnt
+    100374: R_BD_Wrist_02_jnt
+    100376: R_BLND_Collar_jnt
+    100378: R_BLND_Collar_Tip_jnt
+    100380: R_Collar_algn
+    100382: R_Collar_root_algn
+    100384: R_Collar_root_Follow_chest_algn
+    100386: R_Collar_targ
+    100388: R_FK_Ankle_con_
+    100390: R_FK_Ankle_drvr
+    100392: R_FK_Bicep_pole
+    100394: R_FK_Elbow_con_
+    100396: R_FK_Hip_con_
+    100398: R_FK_Knee_con_
+    100400: R_FK_pos_algn
+    100402: R_FK_pos_rot_algn
+    100404: R_FK_pos_rot_targ
+    100406: R_FK_Root_algn
+    100408: R_FK_Shoulder_con_
+    100410: R_FK_targ
+    100412: R_Foot_nb_con_
+    100414: R_Forearm_Twist_null
+    100416: R_Hand_nb_con_
+    100418: R_Hand_null
+    100420: R_IK_Arm_nb_con_
+    100422: R_IK_Arm_nb_forearm_twist_algn1
+    100424: R_IK_Arm_nb_forearm_twist_algn2
+    100426: R_IK_Arm_nb_forearm_twist_goal1
+    100428: R_IK_Arm_nb_forearm_twist_goal2
+    100430: R_IK_Arm_nb_forearm_twist_targ1
+    100432: R_IK_Bicep_pole
+    100434: R_IK_Leg_nb_con_
+    100436: R_IK_targ
+    100438: R_IK_Wrist_nb_Tip_targ_goal
+    100440: R_NB_Ankle_sIK_goal
+    100442: R_NB_Arm_no_bendy_null
+    100444: R_NB_Ball_goal
+    100446: R_NB_Ball_Rock_Inner_null
+    100448: R_NB_Ball_Rock_Outer_null
+    100450: R_NB_Ball_Twist_null
+    100452: R_NB_BD_Ankle_jnt
+    100454: R_NB_BD_Arm_null
+    100456: R_NB_BD_Ball_jnt
+    100458: R_NB_BD_Leg_null
+    100460: R_NB_BD_Toes_jnt
+    100462: R_NB_BLND_Elbow_jnt
+    100464: R_NB_BLND_Forearm_Twist_01_jnt
+    100466: R_NB_BLND_Forearm_Twist_02_jnt
+    100468: R_NB_BLND_Forearm_Twist_05_tip_jnt
+    100470: R_NB_BLND_Shoulder_jnt
+    100472: R_NB_BLND_Wrist_Tip_jnt
+    100474: R_NB_FK_algn
+    100476: R_NB_FK_Ankle_algn
+    100478: R_NB_FK_Ankle_jnt
+    100480: R_NB_FK_Ankle_Tip_jnt
+    100482: R_NB_FK_Ball_jnt
+    100484: R_NB_FK_Elbow_jnt
+    100486: R_NB_FK_Foot_algn
+    100488: R_NB_FK_Hip_jnt
+    100490: R_NB_FK_Knee_jnt
+    100492: R_NB_FK_Leg_PV
+    100494: R_NB_FK_null
+    100496: R_NB_FK_Shoulder_jnt
+    100498: R_NB_FK_Toes_jnt
+    100500: R_NB_FK_Wrist_Tip_jnt
+    100502: R_NB_Heel_Rot_null
+    100504: R_NB_Hip_jnt
+    100506: R_NB_IK_Ankle_jnt
+    100508: R_NB_IK_Ankle_Tip_goal
+    100510: R_NB_IK_Ankle_Tip_jnt
+    100512: R_NB_IK_Ankle_upv_targ
+    100514: R_NB_IK_Arm_aim_upv_algn
+    100516: R_NB_IK_Arm_algn
+    100518: R_NB_IK_Arm_Twist_null
+    100520: R_NB_IK_Ball_jnt
+    100522: R_NB_IK_Ball_upv_targ
+    100524: R_NB_IK_Bicep_pole
+    100526: R_NB_IK_Elbow_jnt
+    100528: R_NB_IK_Foot_algn
+    100530: R_NB_IK_Hip_jnt
+    100532: R_NB_IK_Knee_jnt
+    100534: R_NB_IK_Leg_aim_upv_algn
+    100536: R_NB_IK_Leg_algn
+    100538: R_NB_IK_Leg_PV_con_
+    100540: R_NB_IK_Leg_Twist_null
+    100542: R_NB_IK_Rot_algn
+    100544: R_NB_IK_Shoulder_jnt
+    100546: R_NB_IK_Toes_jnt
+    100548: R_NB_IK_upv_null
+    100550: R_NB_IK_Wrist_Tip_jnt
+    100552: R_NB_Knee_jnt
+    100554: R_NB_Leg_no_bendy_null
+    100556: R_NB_Leg_nulls
+    100558: R_NB_targ
+    100560: R_NB_Toe_goal
+    100562: R_NB_Toe_Pivot_null
+    100564: R_NB_Toe_Wiggle_null
+    100566: R_NB_Wrist_01_jnt
+    100568: R_NB_Wrist_02_jnt
+    100570: R_Palm_algn
+    100572: R_PV_Chest_Follow_targ
+    100574: R_PV_con_
+    100576: R_PV_Follow_algn
+    100578: R_PV_Free_Follow_targ
+    100580: Root_null
+    100582: Spine_null
+    100584: Torso_con_
+    100586: "\u7ACB\u65B9\u4F53_1"
+    100588: "\u89D2\u8272"
+    400000: Advanced_Biped_rig
+    400002: BD_Chest_jnt
+    400004: BD_Head_jnt
+    400006: BD_Head_Tip_jnt
+    400008: BD_Neck_jnt
+    400010: BD_Pelvis_Base_jnt
+    400012: BD_Pelvis_End_jnt
+    400014: BD_Spine_01_jnt
+    400016: BD_Spine_02_jnt
+    400018: BD_Spine_03_jnt
+    400020: BD_Spine_04_jnt
+    400022: Bind_null
+    400024: Blend_Pelvis_algn
+    400026: Blend_Spine_null
+    400028: BLND_Chest_jnt
+    400030: BLND_Head_jnt
+    400032: BLND_Head_Tip_jnt
+    400034: BLND_Neck_jnt
+    400036: BLND_Pelvis_Base_jnt
+    400038: BLND_Pelvis_End_jnt
+    400040: BLND_Spine_01_jnt
+    400042: BLND_Spine_02_jnt
+    400044: BLND_Spine_03_jnt
+    400046: BLND_Spine_04_jnt
+    400048: BLND_Spine_05_jnt
+    400050: Chest_algn
+    400052: Chest_con_
+    400054: FK_Pelvis_01_jnt
+    400056: FK_Pelvis_algn
+    400058: FK_Pelvis_con_
+    400060: FK_Spine_01_con_
+    400062: FK_Spine_01_jnt
+    400064: FK_Spine_02_con_
+    400066: FK_Spine_02_jnt
+    400068: FK_Spine_03_jnt
+    400070: FK_Spine_04_jnt
+    400072: FK_Spine_05_jnt
+    400074: FK_Spine_null
+    400076: FKPelvis_02_jnt
+    400078: //RootNode
+    400080: Head_algn
+    400082: Head_pos_algn
+    400084: Head_pos_rot_algn
+    400086: Head_pos_rot_algn_targ
+    400088: Hips_con_
+    400090: IK_Pelvis_01_jnt
+    400092: IK_Pelvis_02_jnt
+    400094: IK_Pelvis_algn
+    400096: IK_Spine_01_jnt
+    400098: IK_Spine_02_jnt
+    400100: IK_Spine_03_jnt
+    400102: IK_Spine_04_jnt
+    400104: IK_Spine_05_jnt
+    400106: IK_Spine_null
+    400108: L_BD_Collar_jnt
+    400110: L_BD_Collar_Tip_jnt
+    400112: L_BD_NB_Ankle_jnt
+    400114: L_BD_NB_Ball_jnt
+    400116: L_BD_NB_Forearm_Twist_01_jnt
+    400118: L_BD_NB_Forearm_Twist_02_jnt
+    400120: L_BD_NB_Forearm_Twist_05_tip_jnt
+    400122: L_BD_NB_Hip_jnt
+    400124: L_BD_NB_Knee_jnt
+    400126: L_BD_NB_Shoulder_jnt
+    400128: L_BD_NB_Toes_jnt
+    400130: L_BD_Wrist_01_jnt
+    400132: L_BD_Wrist_02_jnt
+    400134: L_BLND_Collar_jnt
+    400136: L_BLND_Collar_Tip_jnt
+    400138: L_Collar_algn
+    400140: L_Collar_root_algn
+    400142: L_Collar_root_Follow_chest_algn
+    400144: L_Collar_targ
+    400146: L_FK_Ankle_con_
+    400148: L_FK_Ankle_drvr
+    400150: L_FK_Bicep_pole
+    400152: L_FK_Elbow_con_
+    400154: L_FK_Hip_con_
+    400156: L_FK_Knee_con_
+    400158: L_FK_pos_algn
+    400160: L_FK_pos_rot_algn
+    400162: L_FK_pos_rot_targ
+    400164: L_FK_Root_algn
+    400166: L_FK_Shoulder_con_
+    400168: L_FK_targ
+    400170: L_FK_targ_2
+    400172: L_Foot_nb_con_
+    400174: L_Forearm_Twist_null
+    400176: L_Hand_nb_con_
+    400178: L_Hand_null
+    400180: L_IK_Arm_nb_con_
+    400182: L_IK_Arm_nb_forearm_twist_algn1
+    400184: L_IK_Arm_nb_forearm_twist_algn2
+    400186: L_IK_Arm_nb_forearm_twist_goal1
+    400188: L_IK_Arm_nb_forearm_twist_goal2
+    400190: L_IK_Arm_nb_forearm_twist_targ1
+    400192: L_IK_Bicep_pole
+    400194: L_IK_Leg_nb_con_
+    400196: L_IK_targ
+    400198: L_IK_targ_2
+    400200: L_IK_Wrist_nb_Tip_targ_goal
+    400202: L_NB_Ankle_sIK_goal
+    400204: L_NB_Arm_no_bendy_null
+    400206: L_NB_Ball_goal
+    400208: L_NB_Ball_Rock_Inner_null
+    400210: L_NB_Ball_Rock_Outer_null
+    400212: L_NB_Ball_Twist_null
+    400214: L_NB_BD_Ankle_jnt
+    400216: L_NB_BD_Arm_null
+    400218: L_NB_BD_Ball_jnt
+    400220: L_NB_BD_Leg_null
+    400222: L_NB_BD_Toes_jnt
+    400224: L_NB_BLND_Elbow_jnt
+    400226: L_NB_BLND_Forearm_Twist_01_jnt
+    400228: L_NB_BLND_Forearm_Twist_02_jnt
+    400230: L_NB_BLND_Forearm_Twist_05_tip_jnt
+    400232: L_NB_BLND_Shoulder_jnt
+    400234: L_NB_BLND_Wrist_Tip_jnt
+    400236: L_NB_FK_algn
+    400238: L_NB_FK_Ankle_algn
+    400240: L_NB_FK_Ankle_jnt
+    400242: L_NB_FK_Ankle_Tip_jnt
+    400244: L_NB_FK_Ball_jnt
+    400246: L_NB_FK_Elbow_jnt
+    400248: L_NB_FK_Foot_algn
+    400250: L_NB_FK_Hip_jnt
+    400252: L_NB_FK_Knee_jnt
+    400254: L_NB_FK_Leg_PV
+    400256: L_NB_FK_null
+    400258: L_NB_FK_Shoulder_jnt
+    400260: L_NB_FK_Toes_jnt
+    400262: L_NB_FK_Wrist_Tip_jnt
+    400264: L_NB_Heel_Rot_null
+    400266: L_NB_Hip_jnt
+    400268: L_NB_IK_Ankle_jnt
+    400270: L_NB_IK_Ankle_Tip_goal
+    400272: L_NB_IK_Ankle_Tip_jnt
+    400274: L_NB_IK_Ankle_upv_targ
+    400276: L_NB_IK_Arm_aim_upv_algn
+    400278: L_NB_IK_Arm_algn
+    400280: L_NB_IK_Arm_Twist_null
+    400282: L_NB_IK_Ball_jnt
+    400284: L_NB_IK_Ball_upv_targ
+    400286: L_NB_IK_Bicep_pole
+    400288: L_NB_IK_Elbow_jnt
+    400290: L_NB_IK_Foot_algn
+    400292: L_NB_IK_Hip_jnt
+    400294: L_NB_IK_Knee_jnt
+    400296: L_NB_IK_Leg_aim_upv_algn
+    400298: L_NB_IK_Leg_algn
+    400300: L_NB_IK_Leg_PV_con_
+    400302: L_NB_IK_Leg_Twist_null
+    400304: L_NB_IK_Rot_algn
+    400306: L_NB_IK_Shoulder_jnt
+    400308: L_NB_IK_Toes_jnt
+    400310: L_NB_IK_upv_null
+    400312: L_NB_IK_Wrist_Tip_jnt
+    400314: L_NB_Knee_jnt
+    400316: L_NB_Leg_no_bendy_null
+    400318: L_NB_Leg_nulls
+    400320: L_NB_targ
+    400322: L_NB_Toe_goal
+    400324: L_NB_Toe_Pivot_null
+    400326: L_NB_Toe_Wiggle_null
+    400328: L_NB_Wrist_01_jnt
+    400330: L_NB_Wrist_02_jnt
+    400332: L_Palm_algn
+    400334: L_PV_Chest_Follow_targ
+    400336: L_PV_con_
+    400338: L_PV_Follow_algn
+    400340: L_PV_Free_Follow_targ
+    400342: Layout_con_
+    400344: Master_con_
+    400346: Neck_algn
+    400348: Neck_algn_targ
+    400350: R_BD_Collar_jnt
+    400352: R_BD_Collar_Tip_jnt
+    400354: R_BD_NB_Ankle_jnt
+    400356: R_BD_NB_Ball_jnt
+    400358: R_BD_NB_Forearm_Twist_01_jnt
+    400360: R_BD_NB_Forearm_Twist_02_jnt
+    400362: R_BD_NB_Forearm_Twist_05_tip_jnt
+    400364: R_BD_NB_Hip_jnt
+    400366: R_BD_NB_Knee_jnt
+    400368: R_BD_NB_Shoulder_jnt
+    400370: R_BD_NB_Toes_jnt
+    400372: R_BD_Wrist_01_jnt
+    400374: R_BD_Wrist_02_jnt
+    400376: R_BLND_Collar_jnt
+    400378: R_BLND_Collar_Tip_jnt
+    400380: R_Collar_algn
+    400382: R_Collar_root_algn
+    400384: R_Collar_root_Follow_chest_algn
+    400386: R_Collar_targ
+    400388: R_FK_Ankle_con_
+    400390: R_FK_Ankle_drvr
+    400392: R_FK_Bicep_pole
+    400394: R_FK_Elbow_con_
+    400396: R_FK_Hip_con_
+    400398: R_FK_Knee_con_
+    400400: R_FK_pos_algn
+    400402: R_FK_pos_rot_algn
+    400404: R_FK_pos_rot_targ
+    400406: R_FK_Root_algn
+    400408: R_FK_Shoulder_con_
+    400410: R_FK_targ
+    400412: R_Foot_nb_con_
+    400414: R_Forearm_Twist_null
+    400416: R_Hand_nb_con_
+    400418: R_Hand_null
+    400420: R_IK_Arm_nb_con_
+    400422: R_IK_Arm_nb_forearm_twist_algn1
+    400424: R_IK_Arm_nb_forearm_twist_algn2
+    400426: R_IK_Arm_nb_forearm_twist_goal1
+    400428: R_IK_Arm_nb_forearm_twist_goal2
+    400430: R_IK_Arm_nb_forearm_twist_targ1
+    400432: R_IK_Bicep_pole
+    400434: R_IK_Leg_nb_con_
+    400436: R_IK_targ
+    400438: R_IK_Wrist_nb_Tip_targ_goal
+    400440: R_NB_Ankle_sIK_goal
+    400442: R_NB_Arm_no_bendy_null
+    400444: R_NB_Ball_goal
+    400446: R_NB_Ball_Rock_Inner_null
+    400448: R_NB_Ball_Rock_Outer_null
+    400450: R_NB_Ball_Twist_null
+    400452: R_NB_BD_Ankle_jnt
+    400454: R_NB_BD_Arm_null
+    400456: R_NB_BD_Ball_jnt
+    400458: R_NB_BD_Leg_null
+    400460: R_NB_BD_Toes_jnt
+    400462: R_NB_BLND_Elbow_jnt
+    400464: R_NB_BLND_Forearm_Twist_01_jnt
+    400466: R_NB_BLND_Forearm_Twist_02_jnt
+    400468: R_NB_BLND_Forearm_Twist_05_tip_jnt
+    400470: R_NB_BLND_Shoulder_jnt
+    400472: R_NB_BLND_Wrist_Tip_jnt
+    400474: R_NB_FK_algn
+    400476: R_NB_FK_Ankle_algn
+    400478: R_NB_FK_Ankle_jnt
+    400480: R_NB_FK_Ankle_Tip_jnt
+    400482: R_NB_FK_Ball_jnt
+    400484: R_NB_FK_Elbow_jnt
+    400486: R_NB_FK_Foot_algn
+    400488: R_NB_FK_Hip_jnt
+    400490: R_NB_FK_Knee_jnt
+    400492: R_NB_FK_Leg_PV
+    400494: R_NB_FK_null
+    400496: R_NB_FK_Shoulder_jnt
+    400498: R_NB_FK_Toes_jnt
+    400500: R_NB_FK_Wrist_Tip_jnt
+    400502: R_NB_Heel_Rot_null
+    400504: R_NB_Hip_jnt
+    400506: R_NB_IK_Ankle_jnt
+    400508: R_NB_IK_Ankle_Tip_goal
+    400510: R_NB_IK_Ankle_Tip_jnt
+    400512: R_NB_IK_Ankle_upv_targ
+    400514: R_NB_IK_Arm_aim_upv_algn
+    400516: R_NB_IK_Arm_algn
+    400518: R_NB_IK_Arm_Twist_null
+    400520: R_NB_IK_Ball_jnt
+    400522: R_NB_IK_Ball_upv_targ
+    400524: R_NB_IK_Bicep_pole
+    400526: R_NB_IK_Elbow_jnt
+    400528: R_NB_IK_Foot_algn
+    400530: R_NB_IK_Hip_jnt
+    400532: R_NB_IK_Knee_jnt
+    400534: R_NB_IK_Leg_aim_upv_algn
+    400536: R_NB_IK_Leg_algn
+    400538: R_NB_IK_Leg_PV_con_
+    400540: R_NB_IK_Leg_Twist_null
+    400542: R_NB_IK_Rot_algn
+    400544: R_NB_IK_Shoulder_jnt
+    400546: R_NB_IK_Toes_jnt
+    400548: R_NB_IK_upv_null
+    400550: R_NB_IK_Wrist_Tip_jnt
+    400552: R_NB_Knee_jnt
+    400554: R_NB_Leg_no_bendy_null
+    400556: R_NB_Leg_nulls
+    400558: R_NB_targ
+    400560: R_NB_Toe_goal
+    400562: R_NB_Toe_Pivot_null
+    400564: R_NB_Toe_Wiggle_null
+    400566: R_NB_Wrist_01_jnt
+    400568: R_NB_Wrist_02_jnt
+    400570: R_Palm_algn
+    400572: R_PV_Chest_Follow_targ
+    400574: R_PV_con_
+    400576: R_PV_Follow_algn
+    400578: R_PV_Free_Follow_targ
+    400580: Root_null
+    400582: Spine_null
+    400584: Torso_con_
+    400586: "\u7ACB\u65B9\u4F53_1"
+    400588: "\u89D2\u8272"
+    4300000: "\u7ACB\u65B9\u4F53_1"
+    7400000: idle
+    9500000: //RootNode
+    13700000: "\u7ACB\u65B9\u4F53_1"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: __
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: "\u7ACB\u65B9\u4F53_1"
+        weight: 0
+      - path: "\u89D2\u8272"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Pelvis_Base_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Pelvis_Base_jnt/BD_Pelvis_End_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/BD_Neck_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/BD_Neck_jnt/BD_Head_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/BD_Neck_jnt/BD_Head_jnt/BD_Head_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt/L_BD_Collar_Tip_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt/L_BD_Collar_Tip_jnt/L_BD_NB_Shoulder_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt/L_BD_Collar_Tip_jnt/L_BD_NB_Shoulder_jnt/L_BD_NB_Forearm_Twist_01_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt/L_BD_Collar_Tip_jnt/L_BD_NB_Shoulder_jnt/L_BD_NB_Forearm_Twist_01_jnt/L_BD_NB_Forearm_Twist_02_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt/L_BD_Collar_Tip_jnt/L_BD_NB_Shoulder_jnt/L_BD_NB_Forearm_Twist_01_jnt/L_BD_NB_Forearm_Twist_02_jnt/L_BD_NB_Forearm_Twist_05_tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt/L_BD_Collar_Tip_jnt/L_BD_NB_Shoulder_jnt/L_BD_NB_Forearm_Twist_01_jnt/L_BD_NB_Forearm_Twist_02_jnt/L_BD_NB_Forearm_Twist_05_tip_jnt/L_BD_Wrist_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/L_BD_Collar_jnt/L_BD_Collar_Tip_jnt/L_BD_NB_Shoulder_jnt/L_BD_NB_Forearm_Twist_01_jnt/L_BD_NB_Forearm_Twist_02_jnt/L_BD_NB_Forearm_Twist_05_tip_jnt/L_BD_Wrist_01_jnt/L_BD_Wrist_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt/R_BD_Collar_Tip_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt/R_BD_Collar_Tip_jnt/R_BD_NB_Shoulder_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt/R_BD_Collar_Tip_jnt/R_BD_NB_Shoulder_jnt/R_BD_NB_Forearm_Twist_01_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt/R_BD_Collar_Tip_jnt/R_BD_NB_Shoulder_jnt/R_BD_NB_Forearm_Twist_01_jnt/R_BD_NB_Forearm_Twist_02_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt/R_BD_Collar_Tip_jnt/R_BD_NB_Shoulder_jnt/R_BD_NB_Forearm_Twist_01_jnt/R_BD_NB_Forearm_Twist_02_jnt/R_BD_NB_Forearm_Twist_05_tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt/R_BD_Collar_Tip_jnt/R_BD_NB_Shoulder_jnt/R_BD_NB_Forearm_Twist_01_jnt/R_BD_NB_Forearm_Twist_02_jnt/R_BD_NB_Forearm_Twist_05_tip_jnt/R_BD_Wrist_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/BD_Spine_02_jnt/BD_Spine_03_jnt/BD_Spine_04_jnt/BD_Chest_jnt/R_BD_Collar_jnt/R_BD_Collar_Tip_jnt/R_BD_NB_Shoulder_jnt/R_BD_NB_Forearm_Twist_01_jnt/R_BD_NB_Forearm_Twist_02_jnt/R_BD_NB_Forearm_Twist_05_tip_jnt/R_BD_Wrist_01_jnt/R_BD_Wrist_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/L_BD_NB_Hip_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/L_BD_NB_Hip_jnt/L_BD_NB_Knee_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/L_BD_NB_Hip_jnt/L_BD_NB_Knee_jnt/L_BD_NB_Ankle_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/L_BD_NB_Hip_jnt/L_BD_NB_Knee_jnt/L_BD_NB_Ankle_jnt/L_BD_NB_Ball_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/L_BD_NB_Hip_jnt/L_BD_NB_Knee_jnt/L_BD_NB_Ankle_jnt/L_BD_NB_Ball_jnt/L_BD_NB_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/R_BD_NB_Hip_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/R_BD_NB_Hip_jnt/R_BD_NB_Knee_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/R_BD_NB_Hip_jnt/R_BD_NB_Knee_jnt/R_BD_NB_Ankle_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/R_BD_NB_Hip_jnt/R_BD_NB_Knee_jnt/R_BD_NB_Ankle_jnt/R_BD_NB_Ball_jnt"
+        weight: 1
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Bind_null/BD_Spine_01_jnt/R_BD_NB_Hip_jnt/R_BD_NB_Knee_jnt/R_BD_NB_Ankle_jnt/R_BD_NB_Ball_jnt/R_BD_NB_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Head_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Head_pos_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Head_pos_rot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_Collar_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_FK_pos_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_FK_pos_rot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_FK_Root_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_FK_Root_algn/L_FK_Shoulder_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_FK_Root_algn/L_FK_Shoulder_con_/L_FK_Elbow_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_FK_Root_algn/L_FK_Shoulder_con_/L_FK_Elbow_con_/L_FK_Bicep_pole"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_Foot_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Arm_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Arm_nb_con_/L_IK_Wrist_nb_Tip_targ_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null/L_NB_Toe_Pivot_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null/L_NB_Toe_Pivot_null/L_NB_Ball_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null/L_NB_Toe_Pivot_null/L_NB_Ball_goal/L_NB_IK_Ankle_Tip_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null/L_NB_Toe_Pivot_null/L_NB_Ball_goal/L_NB_IK_Ankle_Tip_goal/L_NB_IK_Ankle_upv_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null/L_NB_Toe_Wiggle_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null/L_NB_Toe_Wiggle_null/L_NB_IK_Ball_upv_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_IK_Leg_nb_con_/L_NB_Leg_nulls/L_NB_Ball_Twist_null/L_NB_Ball_Rock_Outer_null/L_NB_Ball_Rock_Inner_null/L_NB_Heel_Rot_null/L_NB_Toe_Wiggle_null/L_NB_Toe_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_PV_Follow_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_PV_Follow_algn/L_PV_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_PV_Follow_algn/L_PV_con_/L_IK_Bicep_pole"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_PV_Follow_algn/L_PV_con_/L_NB_IK_Bicep_pole"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/L_PV_Free_Follow_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Neck_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_Collar_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_FK_pos_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_FK_pos_rot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_FK_Root_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_FK_Root_algn/R_FK_Shoulder_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_FK_Root_algn/R_FK_Shoulder_con_/R_FK_Elbow_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_FK_Root_algn/R_FK_Shoulder_con_/R_FK_Elbow_con_/R_FK_Bicep_pole"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_Foot_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Arm_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Arm_nb_con_/R_IK_Wrist_nb_Tip_targ_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null/R_NB_Toe_Pivot_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null/R_NB_Toe_Pivot_null/R_NB_Ball_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null/R_NB_Toe_Pivot_null/R_NB_Ball_goal/R_NB_IK_Ankle_Tip_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null/R_NB_Toe_Pivot_null/R_NB_Ball_goal/R_NB_IK_Ankle_Tip_goal/R_NB_IK_Ankle_upv_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null/R_NB_Toe_Wiggle_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null/R_NB_Toe_Wiggle_null/R_NB_IK_Ball_upv_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_IK_Leg_nb_con_/R_NB_Leg_nulls/R_NB_Ball_Twist_null/R_NB_Ball_Rock_Outer_null/R_NB_Ball_Rock_Inner_null/R_NB_Heel_Rot_null/R_NB_Toe_Wiggle_null/R_NB_Toe_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_PV_Follow_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_PV_Follow_algn/R_PV_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_PV_Follow_algn/R_PV_con_/R_IK_Bicep_pole"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_PV_Follow_algn/R_PV_con_/R_NB_IK_Bicep_pole"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/R_PV_Free_Follow_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Torso_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Torso_con_/Chest_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Torso_con_/FK_Pelvis_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Torso_con_/FK_Spine_01_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Torso_con_/FK_Spine_01_con_/FK_Spine_02_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Master_con_/Layout_con_/Torso_con_/Hips_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/BLND_Pelvis_End_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_FK_Hip_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_FK_Hip_con_/L_FK_Knee_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_FK_Hip_con_/L_FK_Knee_con_/L_FK_Ankle_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_FK_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_FK_targ_2"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_IK_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_IK_targ_2"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_FK_Ankle_drvr"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_FK_Ankle_drvr/L_NB_FK_Ankle_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null/L_NB_Hip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null/L_NB_Hip_jnt/L_NB_Knee_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null/L_NB_Hip_jnt/L_NB_Knee_jnt/L_NB_BD_Ankle_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null/L_NB_Hip_jnt/L_NB_Knee_jnt/L_NB_BD_Ankle_jnt/L_NB_Ankle_sIK_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null/L_NB_Hip_jnt/L_NB_Knee_jnt/L_NB_BD_Ankle_jnt/L_NB_BD_Ball_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null/L_NB_Hip_jnt/L_NB_Knee_jnt/L_NB_BD_Ankle_jnt/L_NB_BD_Ball_jnt/L_NB_BD_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_BD_Leg_null/L_NB_Hip_jnt/L_NB_Knee_jnt/L_NB_BD_Ankle_jnt/L_NB_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Foot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Foot_algn/L_NB_FK_Ankle_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Foot_algn/L_NB_FK_Ankle_jnt/L_NB_FK_Ball_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Foot_algn/L_NB_FK_Ankle_jnt/L_NB_FK_Ball_jnt/L_NB_FK_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Hip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Hip_jnt/L_NB_FK_Knee_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Hip_jnt/L_NB_FK_Knee_jnt/L_NB_FK_Ankle_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_FK_algn/L_NB_FK_Hip_jnt/L_NB_FK_Knee_jnt/L_NB_FK_Leg_PV"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Foot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Foot_algn/L_NB_IK_Ankle_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Foot_algn/L_NB_IK_Ankle_jnt/L_NB_IK_Ball_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Foot_algn/L_NB_IK_Ankle_jnt/L_NB_IK_Ball_jnt/L_NB_IK_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Hip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Hip_jnt/L_NB_IK_Knee_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Hip_jnt/L_NB_IK_Knee_jnt/L_NB_IK_Ankle_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Leg_aim_upv_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Leg_aim_upv_algn/L_NB_IK_Leg_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Leg_aim_upv_algn/L_NB_IK_Leg_Twist_null/L_NB_IK_Leg_PV_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Rot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/L_NB_Leg_no_bendy_null/L_NB_IK_Leg_algn/L_NB_IK_Rot_algn/L_NB_IK_upv_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_FK_Hip_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_FK_Hip_con_/R_FK_Knee_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_FK_Hip_con_/R_FK_Knee_con_/R_FK_Ankle_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_FK_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_IK_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_FK_Ankle_drvr"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_FK_Ankle_drvr/R_NB_FK_Ankle_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null/R_NB_Hip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null/R_NB_Hip_jnt/R_NB_Knee_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null/R_NB_Hip_jnt/R_NB_Knee_jnt/R_NB_BD_Ankle_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null/R_NB_Hip_jnt/R_NB_Knee_jnt/R_NB_BD_Ankle_jnt/R_NB_Ankle_sIK_goal"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null/R_NB_Hip_jnt/R_NB_Knee_jnt/R_NB_BD_Ankle_jnt/R_NB_BD_Ball_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null/R_NB_Hip_jnt/R_NB_Knee_jnt/R_NB_BD_Ankle_jnt/R_NB_BD_Ball_jnt/R_NB_BD_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_BD_Leg_null/R_NB_Hip_jnt/R_NB_Knee_jnt/R_NB_BD_Ankle_jnt/R_NB_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Foot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Foot_algn/R_NB_FK_Ankle_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Foot_algn/R_NB_FK_Ankle_jnt/R_NB_FK_Ball_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Foot_algn/R_NB_FK_Ankle_jnt/R_NB_FK_Ball_jnt/R_NB_FK_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Hip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Hip_jnt/R_NB_FK_Knee_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Hip_jnt/R_NB_FK_Knee_jnt/R_NB_FK_Ankle_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_FK_algn/R_NB_FK_Hip_jnt/R_NB_FK_Knee_jnt/R_NB_FK_Leg_PV"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Foot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Foot_algn/R_NB_IK_Ankle_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Foot_algn/R_NB_IK_Ankle_jnt/R_NB_IK_Ball_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Foot_algn/R_NB_IK_Ankle_jnt/R_NB_IK_Ball_jnt/R_NB_IK_Toes_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Hip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Hip_jnt/R_NB_IK_Knee_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Hip_jnt/R_NB_IK_Knee_jnt/R_NB_IK_Ankle_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Leg_aim_upv_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Leg_aim_upv_algn/R_NB_IK_Leg_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Leg_aim_upv_algn/R_NB_IK_Leg_Twist_null/R_NB_IK_Leg_PV_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Rot_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/Blend_Pelvis_algn/BLND_Pelvis_Base_jnt/R_NB_Leg_no_bendy_null/R_NB_IK_Leg_algn/R_NB_IK_Rot_algn/R_NB_IK_upv_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/BLND_Spine_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/BLND_Spine_01_jnt/BLND_Spine_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/BLND_Spine_01_jnt/BLND_Spine_02_jnt/BLND_Spine_03_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/BLND_Spine_01_jnt/BLND_Spine_02_jnt/BLND_Spine_03_jnt/BLND_Spine_04_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Blend_Spine_null/BLND_Spine_01_jnt/BLND_Spine_02_jnt/BLND_Spine_03_jnt/BLND_Spine_04_jnt/BLND_Spine_05_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/BLND_Neck_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/BLND_Neck_jnt/BLND_Head_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/BLND_Neck_jnt/BLND_Head_jnt/BLND_Head_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/BLND_Neck_jnt/Head_pos_rot_algn_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_Collar_root_Follow_chest_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_Collar_root_Follow_chest_algn/L_Collar_root_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_Collar_root_Follow_chest_algn/L_Collar_root_algn/L_BLND_Collar_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_Collar_root_Follow_chest_algn/L_Collar_root_algn/L_BLND_Collar_jnt/L_BLND_Collar_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_Collar_root_Follow_chest_algn/L_Collar_root_algn/L_BLND_Collar_jnt/L_BLND_Collar_Tip_jnt/L_FK_pos_rot_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_Collar_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_Forearm_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_Forearm_Twist_null/L_NB_BLND_Forearm_Twist_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_Forearm_Twist_null/L_NB_BLND_Forearm_Twist_01_jnt/L_NB_BLND_Forearm_Twist_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_Forearm_Twist_null/L_NB_BLND_Forearm_Twist_01_jnt/L_NB_BLND_Forearm_Twist_02_jnt/L_NB_BLND_Forearm_Twist_05_tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_IK_Arm_nb_forearm_twist_algn1"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_IK_Arm_nb_forearm_twist_algn1/L_IK_Arm_nb_forearm_twist_goal1"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_IK_Arm_nb_forearm_twist_algn2"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_IK_Arm_nb_forearm_twist_algn2/L_IK_Arm_nb_forearm_twist_goal2"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt/L_IK_Arm_nb_forearm_twist_targ1"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt/L_NB_BLND_Wrist_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt/L_NB_BLND_Wrist_Tip_jnt/L_Hand_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt/L_NB_BLND_Wrist_Tip_jnt/L_Hand_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt/L_NB_BLND_Wrist_Tip_jnt/L_Hand_null/L_Palm_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt/L_NB_BLND_Wrist_Tip_jnt/L_Hand_null/L_Palm_algn/L_NB_Wrist_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_BD_Arm_null/L_NB_BLND_Shoulder_jnt/L_NB_BLND_Elbow_jnt/L_NB_BLND_Wrist_Tip_jnt/L_Hand_null/L_Palm_algn/L_NB_Wrist_01_jnt/L_NB_Wrist_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_FK_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_FK_null/L_NB_FK_Shoulder_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_FK_null/L_NB_FK_Shoulder_jnt/L_NB_FK_Elbow_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_FK_null/L_NB_FK_Shoulder_jnt/L_NB_FK_Elbow_jnt/L_NB_FK_Wrist_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_IK_Arm_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_IK_Arm_algn/L_NB_IK_Arm_aim_upv_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_IK_Arm_algn/L_NB_IK_Arm_aim_upv_algn/L_NB_IK_Arm_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_IK_Arm_algn/L_NB_IK_Shoulder_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_IK_Arm_algn/L_NB_IK_Shoulder_jnt/L_NB_IK_Elbow_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_NB_Arm_no_bendy_null/L_NB_IK_Arm_algn/L_NB_IK_Shoulder_jnt/L_NB_IK_Elbow_jnt/L_NB_IK_Wrist_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/L_PV_Chest_Follow_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/Neck_algn_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_Collar_root_Follow_chest_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_Collar_root_Follow_chest_algn/R_Collar_root_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_Collar_root_Follow_chest_algn/R_Collar_root_algn/R_BLND_Collar_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_Collar_root_Follow_chest_algn/R_Collar_root_algn/R_BLND_Collar_jnt/R_BLND_Collar_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_Collar_root_Follow_chest_algn/R_Collar_root_algn/R_BLND_Collar_jnt/R_BLND_Collar_Tip_jnt/R_FK_pos_rot_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_Collar_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_Forearm_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_Forearm_Twist_null/R_NB_BLND_Forearm_Twist_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_Forearm_Twist_null/R_NB_BLND_Forearm_Twist_01_jnt/R_NB_BLND_Forearm_Twist_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_Forearm_Twist_null/R_NB_BLND_Forearm_Twist_01_jnt/R_NB_BLND_Forearm_Twist_02_jnt/R_NB_BLND_Forearm_Twist_05_tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_IK_Arm_nb_forearm_twist_algn1"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_IK_Arm_nb_forearm_twist_algn1/R_IK_Arm_nb_forearm_twist_goal1"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_IK_Arm_nb_forearm_twist_algn2"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_IK_Arm_nb_forearm_twist_algn2/R_IK_Arm_nb_forearm_twist_goal2"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt/R_IK_Arm_nb_forearm_twist_targ1"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt/R_NB_BLND_Wrist_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt/R_NB_BLND_Wrist_Tip_jnt/R_Hand_nb_con_"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt/R_NB_BLND_Wrist_Tip_jnt/R_Hand_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt/R_NB_BLND_Wrist_Tip_jnt/R_Hand_null/R_Palm_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt/R_NB_BLND_Wrist_Tip_jnt/R_Hand_null/R_Palm_algn/R_NB_Wrist_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_BD_Arm_null/R_NB_BLND_Shoulder_jnt/R_NB_BLND_Elbow_jnt/R_NB_BLND_Wrist_Tip_jnt/R_Hand_null/R_Palm_algn/R_NB_Wrist_01_jnt/R_NB_Wrist_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_FK_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_FK_null/R_NB_FK_Shoulder_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_FK_null/R_NB_FK_Shoulder_jnt/R_NB_FK_Elbow_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_FK_null/R_NB_FK_Shoulder_jnt/R_NB_FK_Elbow_jnt/R_NB_FK_Wrist_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_IK_Arm_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_IK_Arm_algn/R_NB_IK_Arm_aim_upv_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_IK_Arm_algn/R_NB_IK_Arm_aim_upv_algn/R_NB_IK_Arm_Twist_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_IK_Arm_algn/R_NB_IK_Shoulder_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_IK_Arm_algn/R_NB_IK_Shoulder_jnt/R_NB_IK_Elbow_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_NB_Arm_no_bendy_null/R_NB_IK_Arm_algn/R_NB_IK_Shoulder_jnt/R_NB_IK_Elbow_jnt/R_NB_IK_Wrist_Tip_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/Chest_algn/BLND_Chest_jnt/R_PV_Chest_Follow_targ"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Pelvis_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Pelvis_algn/FK_Pelvis_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Pelvis_algn/FK_Pelvis_01_jnt/FKPelvis_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Spine_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Spine_01_jnt/FK_Spine_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/FK_Spine_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Pelvis_algn"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Pelvis_algn/IK_Pelvis_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Pelvis_algn/IK_Pelvis_01_jnt/IK_Pelvis_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Spine_01_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Spine_01_jnt/IK_Spine_02_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Spine_01_jnt/IK_Spine_02_jnt/IK_Spine_03_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Spine_01_jnt/IK_Spine_02_jnt/IK_Spine_03_jnt/IK_Spine_04_jnt"
+        weight: 0
+      - path: "\u89D2\u8272/Advanced_Biped_rig/Root_null/Spine_null/IK_Spine_null/IK_Spine_01_jnt/IK_Spine_02_jnt/IK_Spine_03_jnt/IK_Spine_04_jnt/IK_Spine_05_jnt"
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: BD_Spine_01_jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_NB_Hip_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_NB_Hip_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_NB_Knee_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_NB_Knee_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_NB_Ankle_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_NB_Ankle_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BD_Spine_03_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BD_Chest_jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BD_Neck_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BD_Head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_Collar_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_Collar_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_NB_Shoulder_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_NB_Shoulder_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_NB_Forearm_Twist_01_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_NB_Forearm_Twist_01_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_NB_Forearm_Twist_02_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_NB_Forearm_Twist_02_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_BD_NB_Ball_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_BD_NB_Ball_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: guai(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: "\u7ACB\u65B9\u4F53_1"
+      position: {x: 0, y: 0.75410134, z: 0}
+      rotation: {x: -6.123234e-17, y: 1, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: "\u89D2\u8272"
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Advanced_Biped_rig
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root_null
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1.2621775e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bind_null
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BD_Spine_01_jnt
+      position: {x: 1.0372134e-18, y: 0.7834411, z: -8.881784e-18}
+      rotation: {x: 0.7071068, y: 4.329748e-17, z: 1.298931e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BD_Pelvis_Base_jnt
+      position: {x: -6.1629755e-34, y: -6.7611287e-18, z: 0}
+      rotation: {x: -0.9999943, y: -1.1102254e-14, z: 1.2089632e-17, w: 0.0033927858}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: BD_Pelvis_End_jnt
+      position: {x: 5.293956e-25, y: 6.661338e-18, z: -0.11234389}
+      rotation: {x: 0.7047036, y: 1.1876658e-14, z: 1.1674176e-14, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BD_Spine_02_jnt
+      position: {x: 1.0626887e-24, y: -4.2731393e-17, z: -0.095055975}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BD_Spine_03_jnt
+      position: {x: 1.0626553e-24, y: -5.7097644e-17, z: -0.09505299}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BD_Spine_04_jnt
+      position: {x: 1.0626553e-24, y: -5.7097644e-17, z: -0.09505299}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BD_Chest_jnt
+      position: {x: -1.0921021e-16, y: -0.0000000028399398, z: -0.095055975}
+      rotation: {x: -1.3052656e-10, y: 0.0029860134, z: -0.9999955, w: -0.000000043711196}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: BD_Neck_jnt
+      position: {x: 6.7306826e-17, y: -2.8865798e-17, z: -0.2220357}
+      rotation: {x: -0.00000001060576, y: 0.24176109, z: 0.97033584, w: -0.00000004226202}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1.0000001}
+      transformModified: 1
+    - name: BD_Head_jnt
+      position: {x: -1.9889229e-17, y: -4.2632563e-16, z: -0.087100506}
+      rotation: {x: -0.29676968, y: -1.0339701e-10, z: -3.2133015e-11, w: 0.95494914}
+      scale: {x: 1, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: BD_Head_Tip_jnt
+      position: {x: -6.3426885e-21, y: 9.325873e-17, z: -0.24571736}
+      rotation: {x: -2.2618215e-26, y: 1.2490006e-16, z: 4.1633353e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_BD_Collar_jnt
+      position: {x: 0.03634775, y: -0.03932167, z: -0.12372103}
+      rotation: {x: -0.39322013, y: -0.4382279, z: 0.5988763, w: 0.54284567}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999964}
+      transformModified: 1
+    - name: L_BD_Collar_Tip_jnt
+      position: {x: -1.1546319e-16, y: -4.2632563e-16, z: -0.41361803}
+      rotation: {x: -0.55736536, y: -0.020968279, z: 0.02398048, w: 0.829656}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.9999998}
+      transformModified: 1
+    - name: L_BD_NB_Shoulder_jnt
+      position: {x: -1.11022296e-17, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.23158398, y: 0.33839628, z: -0.6535409, w: 0.63619274}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+      transformModified: 1
+    - name: L_BD_NB_Forearm_Twist_01_jnt
+      position: {x: -0.000000014744132, y: -0.0000000060407728, z: -0.37587607}
+      rotation: {x: -0.022226686, y: 0.03476754, z: 0.70602375, w: 0.70698494}
+      scale: {x: 0.9999994, y: 0.99999946, z: 0.9999998}
+      transformModified: 1
+    - name: L_BD_NB_Forearm_Twist_02_jnt
+      position: {x: -1.0658141e-16, y: -5.684342e-16, z: -0.1397981}
+      rotation: {x: 0.000000029802319, y: -0.00000008940696, z: 0.0012106298, w: 0.9999993}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: L_BD_NB_Forearm_Twist_05_tip_jnt
+      position: {x: -1.0658141e-16, y: 1.4210854e-16, z: -0.13977014}
+      rotation: {x: -0.00000008940694, y: 0.00000009685751, z: 0.0012105997, w: 0.9999993}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: L_BD_Wrist_01_jnt
+      position: {x: 0.000000025665267, y: 0.0000000021822457, z: -0.000027964541}
+      rotation: {x: 0.0016703457, y: -0.012769625, z: 0.00000043213367, w: 0.99991715}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+      transformModified: 1
+    - name: L_BD_Wrist_02_jnt
+      position: {x: 2.7711166e-15, y: 9.947598e-16, z: -0.10010748}
+      rotation: {x: 0.0000000012805682, y: -0.7165543, z: 0.00000007450579, w: 0.69753134}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: R_BD_Collar_jnt
+      position: {x: -0.036347743, y: -0.039321672, z: -0.12372103}
+      rotation: {x: 0.3932204, y: -0.43822792, z: 0.5988761, w: -0.5428457}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: R_BD_Collar_Tip_jnt
+      position: {x: -3.2862602e-16, y: -1.4210854e-15, z: -0.41361803}
+      rotation: {x: -0.55736536, y: 0.020968392, z: -0.023980454, w: 0.829656}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: R_BD_NB_Shoulder_jnt
+      position: {x: -2.220446e-18, y: -5.684342e-16, z: 0}
+      rotation: {x: 0.23158425, y: -0.33839634, z: 0.6535407, w: 0.63619274}
+      scale: {x: 1, y: 0.99999964, z: 1}
+      transformModified: 1
+    - name: R_BD_NB_Forearm_Twist_01_jnt
+      position: {x: -0.000000018449642, y: -0.000000006040529, z: -0.37587607}
+      rotation: {x: -0.022226475, y: -0.03476778, z: -0.7060237, w: 0.70698494}
+      scale: {x: 0.9999995, y: 0.99999976, z: 0.99999994}
+      transformModified: 1
+    - name: R_BD_NB_Forearm_Twist_02_jnt
+      position: {x: 8.8817837e-17, y: 1.4210854e-16, z: -0.1397981}
+      rotation: {x: -0.00000016391273, y: 0.000000029802315, z: -0.0012107191, w: 0.9999993}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: R_BD_NB_Forearm_Twist_05_tip_jnt
+      position: {x: -8.8817837e-17, y: -2.842171e-16, z: -0.13977014}
+      rotation: {x: -0.000000029802315, y: 0.000000029802315, z: -0.001210585, w: 0.99999934}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: R_BD_Wrist_01_jnt
+      position: {x: -0.000000025655687, y: 0.0000000017958882, z: -0.000027964992}
+      rotation: {x: 0.0016738024, y: 0.012787362, z: 0.0000010579822, w: 0.99991685}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: R_BD_Wrist_02_jnt
+      position: {x: -3.090861e-15, y: 9.379164e-15, z: -0.09985915}
+      rotation: {x: 0.0000000761356, y: 0.7165543, z: -0.00000003539025, w: 0.6975314}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: L_BD_NB_Hip_jnt
+      position: {x: -0.14685927, y: -0.0012999779, z: 0.049048275}
+      rotation: {x: 0.0026694797, y: 0.9953699, z: -0.0960802, w: -0.00043741002}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: L_BD_NB_Knee_jnt
+      position: {x: 1.5312196e-14, y: -3.410605e-15, z: -0.3083363}
+      rotation: {x: -0.2026214, y: -0.0000006121117, z: -0.0000001384178, w: 0.97925717}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: L_BD_NB_Ankle_jnt
+      position: {x: 5.6328274e-14, y: -2.4100722e-14, z: -0.30701318}
+      rotation: {x: 0.5861756, y: -0.0012410989, z: -0.0024033696, w: 0.8101796}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.9999995}
+      transformModified: 1
+    - name: L_BD_NB_Ball_jnt
+      position: {x: -3.2507329e-15, y: -4.52971e-15, z: -0.16179678}
+      rotation: {x: 0.24503489, y: -0.0000000027386151, z: -0.0000000010521839, w: 0.96951425}
+      scale: {x: 1.0000005, y: 0.99999976, z: 1.0000004}
+      transformModified: 1
+    - name: L_BD_NB_Toes_jnt
+      position: {x: 4.0328088e-10, y: 9.772627e-14, z: -0.09880529}
+      rotation: {x: 1.7261041e-10, y: -0.9998408, z: -0.01784864, w: -0.000000001264853}
+      scale: {x: 0.9999995, y: 1.0000001, z: 0.9999995}
+      transformModified: 1
+    - name: R_BD_NB_Hip_jnt
+      position: {x: 0.14685927, y: -0.0012999523, z: 0.049048275}
+      rotation: {x: -0.0026680978, y: 0.9953699, z: -0.0960802, w: 0.0004372637}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: R_BD_NB_Knee_jnt
+      position: {x: 1.2612133e-14, y: -3.3040237e-15, z: -0.3083363}
+      rotation: {x: -0.20262143, y: 0.0000006174668, z: 0.00000012363306, w: 0.9792571}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: R_BD_NB_Ankle_jnt
+      position: {x: -2.4954082e-12, y: -2.8093083e-14, z: -0.30701318}
+      rotation: {x: 0.5861756, y: 0.0012405447, z: 0.0024021068, w: 0.81017953}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: R_BD_NB_Ball_jnt
+      position: {x: -4.1744384e-15, y: -3.996803e-15, z: -0.16179678}
+      rotation: {x: 0.24503492, y: -8.8646884e-10, z: 0.0000000033255323, w: 0.96951425}
+      scale: {x: 1, y: 1, z: 0.9999997}
+      transformModified: 1
+    - name: R_BD_NB_Toes_jnt
+      position: {x: -2.742051e-10, y: 1.7239542e-13, z: -0.09880529}
+      rotation: {x: 3.2774333e-10, y: -0.9998408, z: -0.017848613, w: 0.000000017311452}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Master_con_
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Layout_con_
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 8.401131e-34, y: -2.1684043e-19, z: 3.2162452e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_algn
+      position: {x: 0.0000000037770413, y: 1.457449, z: 0.050694577}
+      rotation: {x: 0.7071068, y: 1.7431529e-32, z: -1.7431529e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_pos_algn
+      position: {x: 0.0000000037770413, y: 1.457449, z: 0.050694577}
+      rotation: {x: 0.7071068, y: 1.7431529e-32, z: -1.7431529e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_pos_rot_algn
+      position: {x: 0.0000000037770413, y: 1.457449, z: 0.050694577}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Collar_algn
+      position: {x: -0.036347747, y: 1.2871431, z: 0.040059842}
+      rotation: {x: 0.027441163, y: 0.020780776, z: -0.1635163, w: 0.9859399}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_pos_algn
+      position: {x: -0.41193432, y: 1.452485, z: -0.011676588}
+      rotation: {x: -0.044245332, y: 0.0000000038445975, z: 0.41047898, w: 0.91079605}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_pos_rot_algn
+      position: {x: -0.41193432, y: 1.452485, z: -0.011676588}
+      rotation: {x: -0.044245318, y: 0.00000003738492, z: 0.41047898, w: 0.91079605}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Root_algn
+      position: {x: -0.41193432, y: 1.452485, z: -0.011676588}
+      rotation: {x: -0.044245332, y: 0.0000000038445975, z: 0.41047898, w: 0.91079605}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Shoulder_con_
+      position: {x: -5.1159075e-15, y: 9.947598e-16, z: -2.3092638e-16}
+      rotation: {x: -0.47244877, y: 0.47244877, z: -0.5261105, w: 0.5261105}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Elbow_con_
+      position: {x: -0.000000014409823, y: 1.64313e-15, z: -0.3758761}
+      rotation: {x: -0.072679654, y: -0.000295661, z: -0.00002154552, w: 0.99735534}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Bicep_pole
+      position: {x: 0.2850457, y: 0.12264352, z: 0.38864088}
+      rotation: {x: 0.69489175, y: -0.23296952, z: 0.26770955, w: 0.62544566}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Foot_nb_con_
+      position: {x: -0.15321194, y: 0.089322194, z: -0.16887721}
+      rotation: {x: 4.440892e-16, y: 1.4210855e-14, z: -6.360191e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Arm_nb_con_
+      position: {x: -0.84084237, y: 0.9590458, z: -0.017146748}
+      rotation: {x: -0.32323956, y: 0.6466149, z: 0.25791633, w: 0.6410027}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Wrist_nb_Tip_targ_goal
+      position: {x: -0, y: 4.2632563e-16, z: 0}
+      rotation: {x: -0.0005398388, y: 0.00027674175, z: 0.0009201904, w: 0.9999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Leg_nb_con_
+      position: {x: -0.14687042, y: 0.13168608, z: -0.007820121}
+      rotation: {x: 3.3608763e-10, y: -0.015036306, z: -0.0000000074497386, w: 0.999887}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Leg_nulls
+      position: {x: -0.09515443, y: -0.08231968, z: 0.09383191}
+      rotation: {x: -5.16988e-26, y: -1.0581813e-16, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Ball_Twist_null
+      position: {x: 0.09534473, y: -2.1316282e-16, z: 0.045548867}
+      rotation: {x: 0, y: 0, z: -1.576813e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Ball_Rock_Outer_null
+      position: {x: -0.16604683, y: -0.0000059536783, z: -0.045548867}
+      rotation: {x: -1.37e-43, y: 1.7347235e-18, z: 7.916377e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Ball_Rock_Inner_null
+      position: {x: 0.14704268, y: 2.9309886e-16, z: 0.09307812}
+      rotation: {x: 0, y: 0, z: -1.576813e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Heel_Rot_null
+      position: {x: -0.051697943, y: -0.009164924, z: -0.22419816}
+      rotation: {x: -1.37e-43, y: 1.7347235e-18, z: 7.916377e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Toe_Pivot_null
+      position: {x: 0.07070209, y: 0.005498954, z: 0.27560347}
+      rotation: {x: 0.0006972214, y: -0.0000000026523166, z: 1.8492523e-12, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Ball_goal
+      position: {x: -3.229204e-10, y: 0.003533961, z: -0.09893959}
+      rotation: {x: -0.0006972214, y: 0.0000000026523193, z: 1.849254e-12, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Ankle_Tip_goal
+      position: {x: -5.5594532e-11, y: 0.08247836, z: -0.13956843}
+      rotation: {x: -4.977e-42, y: -5.2041704e-18, z: -9.564276e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Ankle_upv_targ
+      position: {x: -0.0000000014886034, y: -0.082846865, z: -0.047191255}
+      rotation: {x: -3.9895737e-10, y: 0.9666745, z: 0.2560086, w: 0.0000000015064415}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Toe_Wiggle_null
+      position: {x: 0.07070209, y: 0.009170876, z: 0.17666891}
+      rotation: {x: 1.0339758e-25, y: 3.469447e-18, z: -6.898557e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Ball_upv_targ
+      position: {x: -0.0000000014625533, y: -0.095283985, z: -0.0034029996}
+      rotation: {x: 3.3878476e-11, y: 0.99984074, z: 0.01784861, w: -0.000000001897803}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Toe_goal
+      position: {x: -4.4406448e-10, y: -0.003671252, z: 0.09893459}
+      rotation: {x: -1.0339758e-25, y: 1.7347235e-18, z: 8.2394944e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_PV_Follow_algn
+      position: {x: -0.5272166, y: 1.2857344, z: -0.32060316}
+      rotation: {x: 0.7071068, y: 1.7431529e-32, z: -1.7431529e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_PV_con_
+      position: {x: 1.4210854e-16, y: -0.4181178, z: -0.16824321}
+      rotation: {x: 2.4651903e-32, y: -4.440892e-16, z: -6.4181615e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Bicep_pole
+      position: {x: -2.6005863e-14, y: -2.7995383e-14, z: -1.1283419e-13}
+      rotation: {x: 2.4651903e-32, y: -4.936523e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Bicep_pole
+      position: {x: -2.6005863e-14, y: -2.7853274e-14, z: -1.1908696e-13}
+      rotation: {x: 2.4651903e-32, y: -4.936523e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_PV_Free_Follow_targ
+      position: {x: -0.5272166, y: 1.2857344, z: -0.32060316}
+      rotation: {x: 0.7071068, y: 1.7431529e-32, z: -1.7431529e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck_algn
+      position: {x: 9.8797054e-11, y: 1.3856907, z: 0.0013260208}
+      rotation: {x: 0.8850989, y: 0.000000055220138, z: -0.000000052891906, w: 0.46540308}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Collar_algn
+      position: {x: 0.03634775, y: 1.2871431, z: 0.04005984}
+      rotation: {x: 0.027441174, y: -0.020780703, z: 0.1635163, w: 0.9859399}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_pos_algn
+      position: {x: 0.41193432, y: 1.452485, z: -0.01167665}
+      rotation: {x: -0.044245332, y: -0.0000000038564285, z: -0.41047898, w: 0.91079605}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_pos_rot_algn
+      position: {x: 0.41193432, y: 1.452485, z: -0.01167665}
+      rotation: {x: -0.044245347, y: 0.000000029683727, z: -0.41047898, w: 0.91079605}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Root_algn
+      position: {x: 0.41193432, y: 1.452485, z: -0.01167665}
+      rotation: {x: -0.044245332, y: -0.000000003856428, z: -0.41047898, w: 0.91079605}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Shoulder_con_
+      position: {x: 7.105427e-16, y: 2.842171e-16, z: 4.973799e-16}
+      rotation: {x: -0.47244877, y: -0.47244877, z: 0.5261105, w: 0.5261105}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Elbow_con_
+      position: {x: 0.0000000146097054, y: 2.842171e-16, z: -0.3758761}
+      rotation: {x: -0.072679654, y: 0.00029566075, z: 0.0000215455, w: 0.99735534}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Bicep_pole
+      position: {x: -0.28504568, y: 0.12264354, z: 0.38864088}
+      rotation: {x: 0.69489175, y: 0.23296952, z: -0.26770955, w: 0.62544566}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Foot_nb_con_
+      position: {x: 0.14128691, y: 0.089322194, z: -0.16890529}
+      rotation: {x: 4.440892e-16, y: 1.4210855e-14, z: -6.360191e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Arm_nb_con_
+      position: {x: 0.840692, y: 0.95889735, z: -0.017411556}
+      rotation: {x: -0.3235393, y: -0.6468961, z: -0.25703928, w: 0.6409201}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Wrist_nb_Tip_targ_goal
+      position: {x: 1.7763568e-17, y: 2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0.0005398388, y: -0.00027674175, z: -0.0009201904, w: 0.9999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Leg_nb_con_
+      position: {x: 0.1468698, y: 0.13168608, z: -0.007820121}
+      rotation: {x: -3.8752224e-10, y: 0.052012354, z: 0.0000000074404958, w: 0.99864644}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Leg_nulls
+      position: {x: 0.09515443, y: -0.08231968, z: 0.09383191}
+      rotation: {x: 6.6483427e-25, y: 1.8041124e-16, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Ball_Twist_null
+      position: {x: -0.09534473, y: 0.0000000028414944, z: 0.045548867}
+      rotation: {x: 4.4448787e-26, y: 6.938894e-18, z: 3.4460716e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Ball_Rock_Outer_null
+      position: {x: 0.16604683, y: -0.000005958627, z: -0.045548867}
+      rotation: {x: 0.000000012904784, y: 1, z: -6.123236e-17, w: 1.7208457e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Ball_Rock_Inner_null
+      position: {x: 0.14704268, y: 5.8710536e-10, z: -0.09307812}
+      rotation: {x: -2.0679515e-25, y: -2.0816682e-17, z: 1.2666203e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Heel_Rot_null
+      position: {x: -0.051697943, y: -0.009164924, z: 0.22419816}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.938894e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Toe_Pivot_null
+      position: {x: -0.07070209, y: 0.0054989546, z: 0.27560347}
+      rotation: {x: 0.0006972214, y: -2.0959164e-10, z: 1.461318e-13, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Ball_goal
+      position: {x: -3.796607e-10, y: 0.003533961, z: -0.09893959}
+      rotation: {x: -0.0006972214, y: 2.0959195e-10, z: 1.4613203e-13, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Ankle_Tip_goal
+      position: {x: 4.0047446e-10, y: 0.08247836, z: -0.13956843}
+      rotation: {x: 1.0842022e-19, y: -2.0816682e-17, z: -7.754818e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Ankle_upv_targ
+      position: {x: -0.0000000014880391, y: -0.082846865, z: -0.047191255}
+      rotation: {x: -3.9895715e-10, y: 0.9666745, z: 0.2560086, w: 0.0000000015064406}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Toe_Wiggle_null
+      position: {x: -0.07070209, y: 0.009170877, z: 0.17666891}
+      rotation: {x: -4.135903e-25, y: 0, z: -5.428373e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Ball_upv_targ
+      position: {x: -0.0000000014625529, y: -0.095283985, z: -0.0034029996}
+      rotation: {x: -3.5151066e-11, y: 0.99984074, z: 0.01784861, w: 0.0000000019690907}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Toe_goal
+      position: {x: 3.770849e-10, y: -0.003671252, z: 0.09893459}
+      rotation: {x: 8.271806e-25, y: -6.938894e-18, z: -2.5849394e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_PV_Follow_algn
+      position: {x: 0.5272166, y: 1.2857344, z: -0.32060316}
+      rotation: {x: 0.7071068, y: 1.7431529e-32, z: -1.7431529e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_PV_con_
+      position: {x: 4.973799e-16, y: 0, z: 0}
+      rotation: {x: 2.4651903e-32, y: -4.440892e-16, z: -6.4181615e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Bicep_pole
+      position: {x: 2.1884716e-14, y: -2.8279601e-14, z: -1.08855145e-13}
+      rotation: {x: 2.4651903e-32, y: -4.936523e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Bicep_pole
+      position: {x: 2.1884716e-14, y: -2.8137491e-14, z: -1.1510792e-13}
+      rotation: {x: 2.4651903e-32, y: -4.936523e-32, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_PV_Free_Follow_targ
+      position: {x: 0.5272166, y: 1.2857344, z: -0.32060316}
+      rotation: {x: 0.7071068, y: 1.7431529e-32, z: -1.7431529e-32, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Torso_con_
+      position: {x: 5.0498495e-16, y: 0.7251498, z: -2.4311417e-19}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest_con_
+      position: {x: 3.1175901e-24, y: -2.8310636e-16, z: -0.4385093}
+      rotation: {x: 3.764939e-23, y: -5.0532154e-16, z: 6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Pelvis_con_
+      position: {x: 4.144233e-25, y: -2.9455855e-17, z: -0.05829131}
+      rotation: {x: 2.2810825e-23, y: -3.061617e-16, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_01_con_
+      position: {x: 4.1442315e-25, y: -2.921274e-17, z: -0.05829131}
+      rotation: {x: 3.764939e-23, y: -5.0532154e-16, z: 6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_02_con_
+      position: {x: -1.001197e-26, y: 0.0000000028328444, z: -0.19010897}
+      rotation: {x: -9.12433e-24, y: 1.2246467e-16, z: 6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips_con_
+      position: {x: 4.144233e-25, y: -3.7062125e-17, z: -0.05829131}
+      rotation: {x: 3.764939e-23, y: -5.0532154e-16, z: 6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_null
+      position: {x: -1.967419e-29, y: 0.77820873, z: -0.0034882387}
+      rotation: {x: 0, y: 0, z: -1.2621775e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Blend_Spine_null
+      position: {x: 7e-45, y: 0.005232358, z: 0.0034882387}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Blend_Pelvis_algn
+      position: {x: 1.0372134e-18, y: 1.4210854e-16, z: -8.881784e-18}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Pelvis_Base_jnt
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.9999943, y: 0.000000043711143, z: 1.4830613e-10, w: -0.00339285}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Pelvis_End_jnt
+      position: {x: 1.9852334e-25, y: -2.7755576e-17, z: -0.11234389}
+      rotation: {x: 0.7047036, y: -7.61118e-25, z: 7.559707e-25, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Hip_con_
+      position: {x: -0.14685927, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: -0.00025980428, y: 0.098993674, z: 0.9950844, w: -0.002691485}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Knee_con_
+      position: {x: -0.0000075613484, y: 0.000021593856, z: -0.30834538}
+      rotation: {x: -0.20140935, y: -0.00000063843424, z: -0.0000059195568, w: 0.97950715}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Ankle_con_
+      position: {x: -0.0000034850054, y: -0.000016338425, z: -0.30701315}
+      rotation: {x: 0.0020990968, y: 0.6244662, z: 0.78104717, w: 0.0016997564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_targ
+      position: {x: -0.07615719, y: 0.0008039922, z: -0.3329306}
+      rotation: {x: 0.7047036, y: -1.055525e-13, z: 1.0483868e-13, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_targ_2
+      position: {x: -0.07615719, y: 0.0008039922, z: -0.3329306}
+      rotation: {x: 0.7047036, y: -1.055525e-13, z: 1.0483868e-13, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_targ
+      position: {x: -0.07615719, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: 0.000000004902483, y: 0.112155735, z: 0.99369067, w: -0.0000000434356}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_targ_2
+      position: {x: -0.14685927, y: 0.0009671101, z: -0.04905597}
+      rotation: {x: 0.000077079116, y: 0.09899425, z: 0.99508804, w: -0.000011537571}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Leg_no_bendy_null
+      position: {x: -0.14685927, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: 0.7047036, y: -1.4532868e-12, z: 1.4621488e-12, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_Ankle_drvr
+      position: {x: 0.00018471992, y: -0.60254806, z: -0.006702011}
+      rotation: {x: -0.003965269, y: 0.96449196, z: 0.26368403, w: 0.014504029}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Ankle_algn
+      position: {x: 0.000000007399576, y: -1.1525181e-12, z: 2.0429968e-12}
+      rotation: {x: -0.0000000012562333, y: 0.9666745, z: 0.2560086, w: 0.0000000047434665}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BD_Leg_null
+      position: {x: -5.911466e-10, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: 0, y: 0, z: -5.52134e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Hip_jnt
+      position: {x: 5.911467e-10, y: 0.28386924, z: 0.0017631629}
+      rotation: {x: -0.007857627, y: 0.77171767, z: 0.6358456, w: 0.009511041}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Knee_jnt
+      position: {x: 1.5738521e-14, y: -3.6770585e-15, z: -0.3083363}
+      rotation: {x: -0.20262189, y: -0.00000061174, z: -0.00000013356983, w: 0.97925705}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BD_Ankle_jnt
+      position: {x: 5.979217e-14, y: -2.225331e-14, z: -0.30701318}
+      rotation: {x: 0.58617395, y: -0.0010922104, z: -0.002468623, w: 0.8101807}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Ankle_sIK_goal
+      position: {x: -3.270685e-10, y: 0.00000013010651, z: 0.00000004299864}
+      rotation: {x: -0.5849306, y: 0.00075208594, z: 0.003073311, w: 0.8110772}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BD_Ball_jnt
+      position: {x: -2.0889955e-14, y: -2.5934809e-14, z: -0.16179678}
+      rotation: {x: 0.2450349, y: -0.0000000030433844, z: 7.6922235e-10, w: 0.9695143}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BD_Toes_jnt
+      position: {x: 4.0328085e-10, y: 1.0587975e-13, z: -0.09880529}
+      rotation: {x: -3.6425044e-11, y: 0.99984074, z: 0.01784861, w: 0.0000000020404494}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_targ
+      position: {x: 0.01137181, y: -0.11831752, z: 0.11663359}
+      rotation: {x: -0.0006449152, y: 0.9647956, z: 0.263, w: -0.00017582039}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_algn
+      position: {x: 0.07070209, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: 4.440892e-16, y: -5.6655387e-16, z: -5.521359e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Foot_algn
+      position: {x: -0.07071336, y: -0.31883606, z: -0.004755758}
+      rotation: {x: -0.003914358, y: -0.0000029847276, z: 0.0000140893835, w: 0.9999924}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Ankle_jnt
+      position: {x: -0.0000000033755079, y: -0.0000014589355, z: -0.00000124686}
+      rotation: {x: 0.000014378929, y: 0.96355706, z: 0.2675028, w: 0.00000083222744}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Ball_jnt
+      position: {x: 1.7416362e-11, y: -0.00000033782356, z: -0.16179672}
+      rotation: {x: 0.24579453, y: -0.0000000088263175, z: 0.000000011794866, w: 0.96932197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Toes_jnt
+      position: {x: -1.688703e-10, y: -1.0578489e-11, z: -0.09880529}
+      rotation: {x: -1.3284279e-13, y: 0.99984074, z: 0.01784861, w: 7.438137e-12}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Hip_jnt
+      position: {x: -0.07070209, y: 0.28386924, z: 0.0017631629}
+      rotation: {x: 0.0017123675, y: 0.77147573, z: 0.63625306, w: -0.0020926986}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Knee_jnt
+      position: {x: -0.0000075613475, y: 0.000021593856, z: -0.30834538}
+      rotation: {x: -0.20140935, y: -0.00000063842384, z: -0.0000059195036, w: 0.97950715}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Ankle_Tip_jnt
+      position: {x: -0.0000034850054, y: -0.000016338425, z: -0.30701315}
+      rotation: {x: -1.5265567e-16, y: 3.34034e-14, z: -3.903128e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Leg_PV
+      position: {x: 0.0000061837454, y: 0.16686624, z: 0.34185153}
+      rotation: {x: 0.0077504017, y: -0.08391422, z: 0.99644077, w: 0.0020459055}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Leg_algn
+      position: {x: 5.3290704e-17, y: 0, z: 2.220446e-18}
+      rotation: {x: -2.6857467e-16, y: 0.77983207, z: 0.6259888, w: 4.3239671e-16}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Foot_algn
+      position: {x: -0.00018471992, y: -0.13686015, z: -0.5868376}
+      rotation: {x: 0.000012855758, y: 0.77737576, z: 0.6290365, w: -0.0000064922374}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Ankle_jnt
+      position: {x: 1.2110491e-12, y: 3.5527135e-16, z: 1.8240965e-15}
+      rotation: {x: -0.003894085, y: 0.9634525, z: 0.2674572, w: 0.014520275}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Ball_jnt
+      position: {x: 1.4870914e-11, y: 3.7303492e-16, z: -0.16179678}
+      rotation: {x: 0.2450349, y: -0.0000000034306278, z: 0.0000000023013826, w: 0.9695143}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Toes_jnt
+      position: {x: 6.1696427e-13, y: -2.842171e-16, z: -0.09880529}
+      rotation: {x: -5.5796703e-14, y: 0.99984074, z: 0.01784861, w: 3.122181e-12}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Hip_jnt
+      position: {x: -3.5527136e-17, y: -1.7763568e-17, z: -2.842171e-16}
+      rotation: {x: -0.01276623, y: -0.0024982288, z: -0.012081435, w: 0.9998424}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Knee_jnt
+      position: {x: 1.7763568e-17, y: 5.3290704e-17, z: -0.3083363}
+      rotation: {x: -0.20262189, y: -0.00000061236585, z: -0.00000013659344, w: 0.97925705}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Ankle_Tip_jnt
+      position: {x: -2.0445866e-14, y: 1.3322676e-16, z: -0.30701318}
+      rotation: {x: -4.9960036e-16, y: 3.3858766e-14, z: -1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Leg_aim_upv_algn
+      position: {x: -1.7763568e-17, y: 0, z: 0}
+      rotation: {x: -0.0015664435, y: 0.11429946, z: 0.99333256, w: 0.014954331}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Leg_Twist_null
+      position: {x: 1.0658141e-16, y: 6.661338e-18, z: 1.2789769e-15}
+      rotation: {x: -0.002294249, y: -0.000019095853, z: 0.000000005610416, w: 0.9999974}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Leg_PV_con_
+      position: {x: 0.0017373732, y: -0.32162583, z: -0.0036524045}
+      rotation: {x: 0.01976371, y: -0.0072679794, z: -0.00014364906, w: 0.9997783}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Rot_algn
+      position: {x: -3.5527136e-17, y: 0, z: 0}
+      rotation: {x: 0.009412549, y: 0.77974397, z: 0.62591803, w: 0.011725794}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_upv_null
+      position: {x: -0.03806177, y: 0, z: 5.551115e-19}
+      rotation: {x: -2.05e-43, y: 1.7347235e-18, z: 1.1793786e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Hip_con_
+      position: {x: 0.14685927, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: 0.00025980733, y: 0.098993674, z: 0.9950844, w: 0.0026914852}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Knee_con_
+      position: {x: 0.0000075612074, y: 0.000021593856, z: -0.30834538}
+      rotation: {x: -0.20140935, y: 0.0000006451875, z: 0.0000059209665, w: 0.97950715}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Ankle_con_
+      position: {x: 0.0000034850798, y: -0.000016338425, z: -0.30701315}
+      rotation: {x: -0.002099097, y: 0.6244662, z: 0.78104717, w: -0.0016997564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_targ
+      position: {x: 0.07615719, y: 0.0008039922, z: -0.3329306}
+      rotation: {x: 0.7047036, y: -1.055525e-13, z: 1.0483868e-13, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_targ
+      position: {x: 0.14685927, y: 0.0009671102, z: -0.04905597}
+      rotation: {x: -0.00007708465, y: 0.09899425, z: 0.99508804, w: 0.000011624127}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Leg_no_bendy_null
+      position: {x: 0.14685927, y: 0.00096711016, z: -0.04905597}
+      rotation: {x: 0.7047036, y: -1.4532868e-12, z: 1.4621488e-12, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_Ankle_drvr
+      position: {x: -0.00019826106, y: -0.60254806, z: -0.0066870367}
+      rotation: {x: 0.013716389, y: 0.96329534, z: 0.26335686, w: -0.050171174}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Ankle_algn
+      position: {x: -0.000000007399576, y: -1.1523937e-12, z: 2.0430235e-12}
+      rotation: {x: -0.0000000012562327, y: 0.9666745, z: 0.2560086, w: 0.0000000047434665}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BD_Leg_null
+      position: {x: -5.911466e-10, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: 0, y: 0, z: -5.52134e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Hip_jnt
+      position: {x: 5.911467e-10, y: 0.28386924, z: 0.0017631629}
+      rotation: {x: 0.031061208, y: 0.7708418, z: 0.6351151, w: -0.038301494}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Knee_jnt
+      position: {x: 1.2985168e-14, y: -3.5882408e-15, z: -0.3083363}
+      rotation: {x: -0.20262313, y: 0.0000006164793, z: 0.00000012755493, w: 0.9792568}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BD_Ankle_jnt
+      position: {x: -2.4954615e-12, y: -2.244871e-14, z: -0.30701318}
+      rotation: {x: 0.58615303, y: 0.0007283136, z: 0.0026319858, w: 0.81019574}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Ankle_sIK_goal
+      position: {x: 2.0799895e-11, y: 0.00000013010693, z: 0.00000004299864}
+      rotation: {x: -0.5849306, y: -0.0007521046, z: -0.003073288, w: 0.8110772}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BD_Ball_jnt
+      position: {x: -3.9257487e-15, y: 1.1652901e-14, z: -0.16179678}
+      rotation: {x: 0.2450349, y: 0.000000011044815, z: -0.0000000027914862, w: 0.9695143}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BD_Toes_jnt
+      position: {x: -2.7420496e-10, y: 1.7968737e-13, z: -0.09880529}
+      rotation: {x: 2.4769228e-11, y: 0.99984074, z: 0.01784861, w: -0.0000000013875224}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_targ
+      position: {x: -0.011371802, y: -0.11831752, z: 0.11663359}
+      rotation: {x: 0.0006448785, y: 0.9647956, z: 0.263, w: 0.00017577157}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_algn
+      position: {x: -0.07070209, y: -0.28386924, z: -0.0017631629}
+      rotation: {x: 4.440892e-16, y: -5.6655387e-16, z: -5.521359e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Foot_algn
+      position: {x: 0.07071336, y: -0.31883606, z: -0.004755758}
+      rotation: {x: -0.003914358, y: 0.0000029854796, z: -0.000014085637, w: 0.9999924}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Ankle_jnt
+      position: {x: 0.0000000033740482, y: -0.000001458937, z: -0.0000012468597}
+      rotation: {x: -0.000014375012, y: 0.96355706, z: 0.2675028, w: -0.00000083241105}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Ball_jnt
+      position: {x: -2.0958346e-12, y: -0.00000033782453, z: -0.16179672}
+      rotation: {x: 0.24579453, y: 4.8744676e-14, z: -1.2307932e-14, w: 0.96932197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Toes_jnt
+      position: {x: 4.1410732e-11, y: -1.0578827e-11, z: -0.09880529}
+      rotation: {x: 1.8549992e-13, y: 0.99984074, z: 0.01784861, w: -1.0387876e-11}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Hip_jnt
+      position: {x: 0.07070209, y: 0.28386924, z: 0.0017631629}
+      rotation: {x: -0.0017123655, y: 0.77147573, z: 0.63625306, w: 0.0020927012}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Knee_jnt
+      position: {x: 0.0000075612083, y: 0.000021593856, z: -0.30834538}
+      rotation: {x: -0.20140935, y: 0.00000064517474, z: 0.000005920905, w: 0.97950715}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Ankle_Tip_jnt
+      position: {x: 0.0000034850798, y: -0.000016338425, z: -0.30701315}
+      rotation: {x: -7.2164497e-16, y: 5.2708272e-14, z: 3.989864e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Leg_PV
+      position: {x: -0.0000061873748, y: 0.16686624, z: 0.34185153}
+      rotation: {x: -0.007750405, y: -0.08391422, z: 0.99644077, w: -0.002045904}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Leg_algn
+      position: {x: 5.3290704e-17, y: 0, z: 2.220446e-18}
+      rotation: {x: -1.1649983e-11, y: 0.77983207, z: 0.6259888, w: 1.4513187e-11}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Foot_algn
+      position: {x: 0.00019826106, y: -0.13684553, z: -0.58684087}
+      rotation: {x: -0.000012853284, y: 0.77737576, z: 0.6290365, w: 0.000006489292}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Ankle_jnt
+      position: {x: -2.3980818e-15, y: 0, z: 5.1070257e-17}
+      rotation: {x: 0.013505544, y: 0.96225744, z: 0.2671249, w: -0.050225317}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Ball_jnt
+      position: {x: -2.0887647e-12, y: 4.440892e-16, z: -0.16179678}
+      rotation: {x: 0.2450349, y: 0.000000011109546, z: -0.0000000030446987, w: 0.9695143}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Toes_jnt
+      position: {x: -3.4638957e-15, y: 8.8817837e-17, z: -0.09880529}
+      rotation: {x: 2.477822e-16, y: 0.99984074, z: 0.01784861, w: -1.7310877e-14}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Hip_jnt
+      position: {x: 3.5527136e-17, y: -3.5527136e-17, z: -2.842171e-16}
+      rotation: {x: -0.0127448365, y: 0.010424766, z: 0.04819883, w: 0.99870205}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Knee_jnt
+      position: {x: 1.7763567e-16, y: 1.5987211e-16, z: -0.3083363}
+      rotation: {x: -0.20262313, y: 0.00000061647967, z: 0.00000012755652, w: 0.9792568}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Ankle_Tip_jnt
+      position: {x: -3.24718e-14, y: -1.2434498e-16, z: -0.30701318}
+      rotation: {x: -3.1918912e-16, y: 5.314499e-14, z: 3.469447e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Leg_aim_upv_algn
+      position: {x: -1.7763568e-17, y: 0, z: 0}
+      rotation: {x: -0.11415156, y: 0.0057813213, z: 0.051687103, w: 0.992101}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Leg_Twist_null
+      position: {x: 7.105427e-17, y: -1.110223e-18, z: -5.684342e-16}
+      rotation: {x: -0.00001910954, y: -0.0022942487, z: 0.9999974, w: 0.000000056670878}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Leg_PV_con_
+      position: {x: -0.0017373769, y: -0.32162583, z: -0.0036524045}
+      rotation: {x: 0.01976371, y: 0.0072679794, z: 0.0001436485, w: 0.9997783}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Rot_algn
+      position: {x: -3.5527136e-17, y: 0, z: 0}
+      rotation: {x: -0.03255915, y: 0.7787765, z: 0.62514144, w: -0.040560912}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_upv_null
+      position: {x: 0.03806177, y: -0.0000000011343466, z: -1.4165601e-12}
+      rotation: {x: 3.9865086e-27, y: 0, z: 4.3168155e-25, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Spine_01_jnt
+      position: {x: 1.0372134e-18, y: 1.4210854e-16, z: -8.881784e-18}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Spine_02_jnt
+      position: {x: 1.0626936e-24, y: -4.2731393e-17, z: -0.095055975}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Spine_03_jnt
+      position: {x: 1.0626601e-24, y: -5.7097644e-17, z: -0.09505299}
+      rotation: {x: 2.4651903e-32, y: -2.938736e-39, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Spine_04_jnt
+      position: {x: 1.0626601e-24, y: -5.7097644e-17, z: -0.09505299}
+      rotation: {x: -0.000000007450581, y: -6.617445e-24, z: -4.9303807e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Spine_05_jnt
+      position: {x: -1.0769136e-16, y: -7.095342e-12, z: -0.095055975}
+      rotation: {x: 0.000000007450581, y: 3.3087223e-24, z: -2.4651902e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest_algn
+      position: {x: -2.1271614e-16, y: 0.38545027, z: 0.0034882373}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Chest_jnt
+      position: {x: 1.1044053e-31, y: -0.0000000028328444, z: -2.842171e-16}
+      rotation: {x: -6.1049225e-17, y: -0.0029860758, z: 0.9999955, w: -6.141491e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Neck_jnt
+      position: {x: -1.4024907e-17, y: 8.9928065e-17, z: -0.2220357}
+      rotation: {x: 4.5075315e-17, y: 0.29391685, z: 0.955831, w: -7.792249e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Head_jnt
+      position: {x: -2.05829e-21, y: -4.2632563e-16, z: -0.087100506}
+      rotation: {x: -0.29217514, y: 0.000000011297474, z: 0.000000035753576, w: 0.95636487}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BLND_Head_Tip_jnt
+      position: {x: -6.352747e-21, y: -7.5495166e-17, z: -0.24571736}
+      rotation: {x: 8.6736174e-19, y: 6.123234e-17, z: 6.1232336e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_pos_rot_algn_targ
+      position: {x: 5.4990227e-18, y: -4.2632563e-16, z: -0.087100506}
+      rotation: {x: -0.2967697, y: -7.68053e-25, z: 1.3620575e-23, w: 0.9549491}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Collar_root_Follow_chest_algn
+      position: {x: 0.036347747, y: -0.03932167, z: -0.12372103}
+      rotation: {x: -1.0886065e-16, y: 0.7092151, z: -0.7049922, w: -2.2657384e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Collar_root_algn
+      position: {x: -0, y: 0, z: 8.881784e-18}
+      rotation: {x: 8.468033e-11, y: -2.4469005e-10, z: 2.0720632e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_BLND_Collar_jnt
+      position: {x: -0, y: 0, z: -8.881784e-18}
+      rotation: {x: 0.15022373, y: 0.6441207, z: -0.13838269, w: 0.73715097}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_BLND_Collar_Tip_jnt
+      position: {x: 2.5757173e-16, y: 5.684342e-16, z: -0.41361803}
+      rotation: {x: -0.55736536, y: -0.020968249, z: 0.023980493, w: 0.829656}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_FK_pos_rot_targ
+      position: {x: 1.7319479e-16, y: -2.2737367e-15, z: 0}
+      rotation: {x: -0.025434755, y: -0.6405124, z: 0.030454483, w: 0.76692206}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Collar_targ
+      position: {x: 0.036347747, y: -0.03932167, z: -0.12372103}
+      rotation: {x: 0.101317964, y: -0.67989767, z: 0.7145416, w: 0.13001572}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Arm_no_bendy_null
+      position: {x: 0.036347747, y: -0.03932167, z: -0.12372103}
+      rotation: {x: 1.6875464e-12, y: 0.7092151, z: -0.7049922, w: 1.6774106e-12}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BD_Arm_null
+      position: {x: -0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Forearm_Twist_null
+      position: {x: -0, y: 0, z: 4.440892e-18}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BLND_Forearm_Twist_01_jnt
+      position: {x: -0.47135222, y: -0.12795362, z: -0.05008785}
+      rotation: {x: -0.2678028, y: 0.6819336, z: 0.3209086, w: 0.6002217}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BLND_Forearm_Twist_02_jnt
+      position: {x: -1.2434498e-16, y: 0, z: -0.1397981}
+      rotation: {x: -6.3526793e-16, y: -2.7470681e-16, z: -0.048688624, w: 0.998814}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BLND_Forearm_Twist_05_tip_jnt
+      position: {x: -6.661338e-17, y: -2.842171e-16, z: -0.13977014}
+      rotation: {x: -7.7029393e-16, y: 2.0427269e-16, z: -0.04867891, w: 0.99881446}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Arm_nb_forearm_twist_algn1
+      position: {x: -0.46958488, y: -0.12945399, z: -0.050616324}
+      rotation: {x: -0.32662833, y: 0.656097, z: 0.2529576, w: 0.6315561}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Arm_nb_forearm_twist_goal1
+      position: {x: -0.0007085707, y: 0.0022677986, z: -0.00009486137}
+      rotation: {x: -0.011129953, y: -0.00019942636, z: 0.097875334, w: 0.99513644}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Arm_nb_forearm_twist_algn2
+      position: {x: -0.6521789, y: -0.3402115, z: -0.029536605}
+      rotation: {x: -0.3230618, y: 0.6469501, z: 0.2587656, w: 0.64041156}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Arm_nb_forearm_twist_goal2
+      position: {x: 3.7303492e-16, y: 1.1795009e-14, z: 7.105427e-16}
+      rotation: {x: 1.6002824e-15, y: 5.412337e-16, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BLND_Shoulder_jnt
+      position: {x: -0.22327219, y: 0.153226, z: -0.024066402}
+      rotation: {x: -0.6229406, y: 0.27808395, z: -0.21822661, w: 0.69784784}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BLND_Elbow_jnt
+      position: {x: -0.00000001440897, y: -1.2434498e-15, z: -0.3758761}
+      rotation: {x: -0.07188724, y: -0.00029243712, z: -0.000021546637, w: 0.99741274}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Arm_nb_forearm_twist_targ1
+      position: {x: -3.3468467e-10, y: -0.0000000060406915, z: 0.000000041226965}
+      rotation: {x: 0.000000019981215, y: -0.00000002141081, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_BLND_Wrist_Tip_jnt
+      position: {x: -6.31033e-12, y: -1.0167511e-12, z: -0.27959615}
+      rotation: {x: 0.016104871, y: -0.003735859, z: 0.63489306, w: 0.77242315}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Hand_nb_con_
+      position: {x: 0.00015828274, y: 0.00030806274, z: -0.28546306}
+      rotation: {x: -0.003318097, y: -0.70833766, z: 0.000010524348, w: 0.7058659}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Hand_null
+      position: {x: -0.00091003254, y: -0.00017831288, z: -0.0388522}
+      rotation: {x: -0.002322018, y: 0.011703522, z: -0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Palm_algn
+      position: {x: -0.000000002095275, y: 1.8047785e-14, z: 0.038863264}
+      rotation: {x: 0.002322018, y: -0.011703522, z: 0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Wrist_01_jnt
+      position: {x: 0.000000017590255, y: 0, z: -0.000000002569362}
+      rotation: {x: -0.00089059863, y: 0.0045453417, z: 0.0000040481186, w: 0.9999893}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_Wrist_02_jnt
+      position: {x: 1.9539925e-16, y: 2.7000624e-15, z: -0.10010748}
+      rotation: {x: -7.665789e-12, y: -0.7165543, z: -7.902467e-12, w: 0.69753134}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_null
+      position: {x: -0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Shoulder_jnt
+      position: {x: -0.22327219, y: 0.153226, z: -0.024066402}
+      rotation: {x: -0.6475126, y: 0.2130962, z: -0.2841257, w: 0.6742329}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Elbow_jnt
+      position: {x: -0.000000014408923, y: 1.2878586e-15, z: -0.3758761}
+      rotation: {x: -0.072679654, y: -0.00029566092, z: -0.000021545513, w: 0.99735534}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_FK_Wrist_Tip_jnt
+      position: {x: 1.6072903e-11, y: 2.4574297e-12, z: -0.27959615}
+      rotation: {x: 0.014079101, y: -0.010398315, z: 0.7087084, w: 0.7052844}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Arm_algn
+      position: {x: -0.37558654, y: 0.16534193, z: -0.05173646}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Arm_aim_upv_algn
+      position: {x: 1.4210854e-16, y: 1.1368684e-15, z: -1.11022296e-17}
+      rotation: {x: -0.64350504, y: 0.28586352, z: -0.20814273, w: 0.6788666}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Arm_Twist_null
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -3.8163916e-17, y: -3.1561125e-16, z: 4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Shoulder_jnt
+      position: {x: 1.4210854e-16, y: 1.9895197e-15, z: -2.2204459e-17}
+      rotation: {x: -0.6229406, y: 0.27808395, z: -0.21822661, w: 0.69784784}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Elbow_jnt
+      position: {x: -0.000000014408921, y: 1.3500312e-15, z: -0.3758761}
+      rotation: {x: -0.07188724, y: -0.00029243715, z: -0.000021546719, w: 0.99741274}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_NB_IK_Wrist_Tip_jnt
+      position: {x: -5.684342e-16, y: 1.9539925e-16, z: -0.27959615}
+      rotation: {x: 0.016104871, y: -0.003735859, z: 0.63489306, w: 0.77242315}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_PV_Chest_Follow_targ
+      position: {x: 0.5272166, y: 0.32132652, z: -0.12015848}
+      rotation: {x: 3.7099882e-11, y: -0.0029860758, z: 0.9999955, w: 0.000000043443507}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck_algn_targ
+      position: {x: -1.4024907e-17, y: -5.973e-16, z: -0.2220357}
+      rotation: {x: 0.000000012847514, y: 0.29391685, z: 0.955831, w: -0.0000000417807}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Collar_root_Follow_chest_algn
+      position: {x: -0.036347747, y: -0.03932167, z: -0.12372103}
+      rotation: {x: -1.0886065e-16, y: 0.7092151, z: -0.7049922, w: -2.2657384e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Collar_root_algn
+      position: {x: -0, y: 0, z: 8.881784e-18}
+      rotation: {x: -8.468071e-11, y: -2.449041e-10, z: -2.0738455e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_BLND_Collar_jnt
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.15022373, y: -0.6441207, z: 0.13838269, w: 0.73715097}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_BLND_Collar_Tip_jnt
+      position: {x: -1.1546319e-16, y: -7.105427e-16, z: -0.41361803}
+      rotation: {x: -0.55736536, y: 0.020968249, z: -0.023980493, w: 0.829656}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_FK_pos_rot_targ
+      position: {x: 8.2156505e-17, y: -1.1368684e-15, z: -8.5265126e-16}
+      rotation: {x: -0.025434755, y: 0.6405124, z: -0.030454483, w: 0.76692206}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Collar_targ
+      position: {x: -0.036347747, y: -0.03932167, z: -0.12372103}
+      rotation: {x: -0.101317964, y: -0.67989767, z: 0.7145416, w: -0.13001572}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Arm_no_bendy_null
+      position: {x: -0.036347747, y: -0.03932167, z: -0.12372103}
+      rotation: {x: 1.6875464e-12, y: 0.7092151, z: -0.7049922, w: 1.6774106e-12}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BD_Arm_null
+      position: {x: 0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Forearm_Twist_null
+      position: {x: -0, y: 0, z: 4.440892e-18}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BLND_Forearm_Twist_01_jnt
+      position: {x: 0.46790972, y: -0.13093884, z: -0.05025061}
+      rotation: {x: -0.32730487, y: -0.6553174, z: -0.25654057, w: 0.6305692}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BLND_Forearm_Twist_02_jnt
+      position: {x: -5.3290704e-17, y: 0, z: -0.1397981}
+      rotation: {x: -3.3482532e-16, y: 2.746833e-17, z: 0.00085792644, w: 0.99999964}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BLND_Forearm_Twist_05_tip_jnt
+      position: {x: -8.8817837e-17, y: -1.4210854e-16, z: -0.13977014}
+      rotation: {x: -5.4828277e-17, y: 2.1505877e-16, z: 0.0008577549, w: 0.99999964}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Arm_nb_forearm_twist_algn1
+      position: {x: 0.46958488, y: -0.12945399, z: -0.050616324}
+      rotation: {x: -0.32662836, y: -0.656097, z: -0.2529576, w: 0.6315561}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Arm_nb_forearm_twist_goal1
+      position: {x: 0.00018294285, y: -0.0022606824, z: -0.000021243493}
+      rotation: {x: -0.003297564, y: 0.00084404624, z: -0.0018139753, w: 0.99999255}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Arm_nb_forearm_twist_algn2
+      position: {x: 0.6520272, y: -0.3403586, z: -0.029801296}
+      rotation: {x: -0.32336092, y: -0.6472321, z: -0.2578886, w: 0.6403295}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Arm_nb_forearm_twist_goal2
+      position: {x: 3.907985e-16, y: 1.2079226e-14, z: -3.5527136e-17}
+      rotation: {x: -3.1225023e-16, y: -2.1475877e-15, z: 4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BLND_Shoulder_jnt
+      position: {x: 0.22327219, y: 0.153226, z: -0.024066402}
+      rotation: {x: -0.6480482, y: -0.21260898, z: 0.28059262, w: 0.6753508}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BLND_Elbow_jnt
+      position: {x: -0.000000018065606, y: -2.9931612e-15, z: -0.3758761}
+      rotation: {x: -0.07158808, y: 0.0002912184, z: 0.000021546994, w: 0.99743426}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Arm_nb_forearm_twist_targ1
+      position: {x: -3.840931e-10, y: -0.00000000604063, z: 0.00000004122655}
+      rotation: {x: -0.000000010606194, y: 0.000000051998217, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_BLND_Wrist_Tip_jnt
+      position: {x: -0.000000024186663, y: -3.7392311e-13, z: -0.27959615}
+      rotation: {x: 0.011081237, y: 0.007229136, z: -0.7058307, w: 0.7082571}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Hand_nb_con_
+      position: {x: -0.00015828274, y: 0.00030806274, z: -0.28546306}
+      rotation: {x: -0.003318097, y: 0.70833766, z: -0.000010524348, w: 0.7058659}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Hand_null
+      position: {x: 0.00090422167, y: -0.00017717334, z: -0.038603902}
+      rotation: {x: -0.002322018, y: -0.011703522, z: 0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Palm_algn
+      position: {x: -0.0000000020952522, y: -3.7374546e-14, z: 0.038614895}
+      rotation: {x: 0.002322018, y: 0.011703522, z: -0.0023702555, w: 0.99992603}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Wrist_01_jnt
+      position: {x: -0.000000018416994, y: 2.0079938e-11, z: -0.0000000024713358}
+      rotation: {x: -0.0008871142, y: -0.004527524, z: -0.0000026142063, w: 0.9999894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_Wrist_02_jnt
+      position: {x: -9.237055e-16, y: -4.973799e-15, z: -0.09985915}
+      rotation: {x: -7.506682e-12, y: 0.7165543, z: 7.710707e-12, w: 0.69753134}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_null
+      position: {x: 0.15231438, y: 0.012115915, z: -0.02767006}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Shoulder_jnt
+      position: {x: 0.22327219, y: 0.153226, z: -0.024066402}
+      rotation: {x: -0.6475126, y: -0.21309626, z: 0.28412566, w: 0.6742329}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Elbow_jnt
+      position: {x: -0.000000018065656, y: 3.952394e-16, z: -0.3758761}
+      rotation: {x: -0.072679654, y: 0.00029566107, z: 0.000021545526, w: 0.99735534}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_FK_Wrist_Tip_jnt
+      position: {x: -0.000000024180034, y: -1.3781508e-12, z: -0.27959615}
+      rotation: {x: 0.014079071, y: 0.010398346, z: -0.7087084, w: 0.7052844}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Arm_algn
+      position: {x: 0.37558654, y: 0.16534193, z: -0.05173646}
+      rotation: {x: 1.540744e-33, y: 8.271806e-25, z: -5.4921347e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Arm_aim_upv_algn
+      position: {x: 7.105427e-17, y: 1.4210854e-15, z: -6.661338e-18}
+      rotation: {x: -0.6679632, y: -0.22235002, z: 0.27256018, w: 0.65581745}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Arm_Twist_null
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -3.3827108e-17, y: -4.6203276e-16, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Shoulder_jnt
+      position: {x: 7.105427e-17, y: 1.7053025e-15, z: -3.1086245e-17}
+      rotation: {x: -0.6480482, y: -0.21260898, z: 0.28059262, w: 0.6753508}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Elbow_jnt
+      position: {x: -0.000000018065654, y: 5.062617e-16, z: -0.3758761}
+      rotation: {x: -0.07158808, y: 0.0002912184, z: 0.000021547023, w: 0.99743426}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_NB_IK_Wrist_Tip_jnt
+      position: {x: -0.000000024202523, y: 2.0959057e-12, z: -0.27959615}
+      rotation: {x: 0.011081237, y: 0.007229136, z: -0.7058307, w: 0.7082571}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_PV_Chest_Follow_targ
+      position: {x: -0.5272166, y: 0.32132652, z: -0.12015848}
+      rotation: {x: 3.550286e-11, y: -0.0029860758, z: 0.9999955, w: 0.000000043443503}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_null
+      position: {x: 7e-45, y: 0.005232358, z: 0.0034882387}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Pelvis_algn
+      position: {x: 1.0372134e-18, y: 1.4210854e-16, z: -8.881784e-18}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Pelvis_01_jnt
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.9999943, y: 0.000000043711143, z: 1.4830613e-10, w: -0.00339285}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FKPelvis_02_jnt
+      position: {x: 1.9852334e-25, y: -2.7755576e-17, z: -0.11234389}
+      rotation: {x: 0.7047036, y: -7.61118e-25, z: 7.559707e-25, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_01_jnt
+      position: {x: 1.0372134e-18, y: 1.4210854e-16, z: -8.881784e-18}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_02_jnt
+      position: {x: 1.0626936e-24, y: -5.336515e-17, z: -0.095055975}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_03_jnt
+      position: {x: 1.0626601e-24, y: -4.3575385e-17, z: -0.09505299}
+      rotation: {x: 2.7117094e-31, y: -3.3087225e-24, z: 6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_04_jnt
+      position: {x: 4.3365217e-25, y: -0.0000000014163999, z: -0.09505299}
+      rotation: {x: -0.000000007450581, y: -6.617445e-24, z: 6.617445e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FK_Spine_05_jnt
+      position: {x: -8.2438967e-25, y: -1.4871455e-17, z: -0.095055975}
+      rotation: {x: 0.000000007450581, y: 6.617445e-24, z: -1.323489e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Spine_null
+      position: {x: 7e-45, y: 0.005232358, z: 0.0034882387}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Pelvis_algn
+      position: {x: 1.0372127e-18, y: 1.4210854e-16, z: -1.3322676e-17}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Pelvis_01_jnt
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.9999943, y: 0.000000043711143, z: 1.4830613e-10, w: -0.00339285}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Pelvis_02_jnt
+      position: {x: 2.646978e-25, y: -2.7755576e-17, z: -0.11234389}
+      rotation: {x: 0.7047036, y: -7.61118e-25, z: 7.559707e-25, w: 0.7095018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Spine_01_jnt
+      position: {x: 1.0372127e-18, y: 1.4210854e-16, z: -1.498801e-17}
+      rotation: {x: 0.7071068, y: 0.000000026341782, z: -0.000000026341782, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Spine_02_jnt
+      position: {x: 1.0626912e-24, y: -4.264956e-17, z: -0.095055975}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Spine_03_jnt
+      position: {x: 1.0626578e-24, y: -5.708578e-17, z: -0.09505299}
+      rotation: {x: 2.4651903e-32, y: -2.938736e-39, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Spine_04_jnt
+      position: {x: 0.0000000023381128, y: -3.264829e-11, z: -0.09505299}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK_Spine_05_jnt
+      position: {x: -3.8425118e-20, y: -9.639735e-17, z: -0.095017985}
+      rotation: {x: -2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a897595e3c2797d459b4abd9d7d11799,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

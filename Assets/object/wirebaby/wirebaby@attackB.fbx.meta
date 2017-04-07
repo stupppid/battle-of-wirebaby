@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 1974d852c1040d84ca21f6fe6bcaf2df
+timeCreated: 1471760625
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: chest_2
+    100004: controller
+    100006: head
+    100008: hip
+    100010: hips
+    100012: jaw
+    100014: L_aLm_Lotation
+    100016: L_ankle
+    100018: "L_ankle_\u76EE\u6807"
+    100020: L_arm
+    100022: L_elbow
+    100024: L_eyeball
+    100026: L_feet
+    100028: L_hand
+    100030: L_hand_1
+    100032: L_hand_2
+    100034: L_knee
+    100036: L_thigh
+    100038: L_thigh_Lotation
+    100040: L_thumb_1
+    100042: L_thumb_2
+    100044: L_thumb_3
+    100046: L_toe
+    100048: "L_toe_\u76EE\u6807"
+    100050: L_wList
+    100052: neck_2
+    100054: other
+    100056: R_ankle
+    100058: "R_ankle_\u76EE\u6807"
+    100060: R_arm
+    100062: R_arm_rotation
+    100064: R_elbow
+    100066: R_eyeball
+    100068: R_feet
+    100070: R_hand
+    100072: R_hand_1
+    100074: R_hand_2
+    100076: R_knee
+    100078: R_thigh
+    100080: R_thigh_rotation
+    100082: R_thumb_1
+    100084: R_thumb_2
+    100086: R_thumb_3
+    100088: R_toe
+    100090: "R_toe_\u76EE\u6807"
+    100092: R_wrist
+    100094: sprine
+    100096: sprine_2
+    100098: //RootNode
+    400000: body
+    400002: chest_2
+    400004: controller
+    400006: head
+    400008: hip
+    400010: hips
+    400012: jaw
+    400014: L_aLm_Lotation
+    400016: L_ankle
+    400018: "L_ankle_\u76EE\u6807"
+    400020: L_arm
+    400022: L_elbow
+    400024: L_eyeball
+    400026: L_feet
+    400028: L_hand
+    400030: L_hand_1
+    400032: L_hand_2
+    400034: L_knee
+    400036: L_thigh
+    400038: L_thigh_Lotation
+    400040: L_thumb_1
+    400042: L_thumb_2
+    400044: L_thumb_3
+    400046: L_toe
+    400048: "L_toe_\u76EE\u6807"
+    400050: L_wList
+    400052: neck_2
+    400054: other
+    400056: R_ankle
+    400058: "R_ankle_\u76EE\u6807"
+    400060: R_arm
+    400062: R_arm_rotation
+    400064: R_elbow
+    400066: R_eyeball
+    400068: R_feet
+    400070: R_hand
+    400072: R_hand_1
+    400074: R_hand_2
+    400076: R_knee
+    400078: R_thigh
+    400080: R_thigh_rotation
+    400082: R_thumb_1
+    400084: R_thumb_2
+    400086: R_thumb_3
+    400088: R_toe
+    400090: "R_toe_\u76EE\u6807"
+    400092: R_wrist
+    400094: sprine
+    400096: sprine_2
+    400098: //RootNode
+    4300000: R_eyeball
+    4300002: L_eyeball
+    4300004: body
+    7400000: attackB
+    9500000: //RootNode
+    13700000: body
+    13700002: L_eyeball
+    13700004: R_eyeball
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attackB
+      takeName: __
+      firstFrame: 175
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.26341465
+        functionName: attackc1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.89756095
+        functionName: attackc2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.68776417
+        functionName: attackGuai
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body
+        weight: 1
+      - path: controller
+        weight: 1
+      - path: controller/L_feet
+        weight: 1
+      - path: "controller/L_feet/L_ankle_\u76EE\u6807"
+        weight: 1
+      - path: "controller/L_feet/L_ankle_\u76EE\u6807/L_toe_\u76EE\u6807"
+        weight: 1
+      - path: controller/other
+        weight: 1
+      - path: controller/other/hips
+        weight: 1
+      - path: controller/other/hips/sprine
+        weight: 1
+      - path: controller/other/L_aLm_Lotation
+        weight: 1
+      - path: controller/other/L_hand
+        weight: 1
+      - path: controller/other/L_thigh_Lotation
+        weight: 1
+      - path: controller/other/R_arm_rotation
+        weight: 1
+      - path: controller/other/R_hand
+        weight: 1
+      - path: controller/other/R_thigh_rotation
+        weight: 1
+      - path: controller/R_feet
+        weight: 1
+      - path: "controller/R_feet/R_ankle_\u76EE\u6807"
+        weight: 1
+      - path: "controller/R_feet/R_ankle_\u76EE\u6807/R_toe_\u76EE\u6807"
+        weight: 1
+      - path: hip
+        weight: 1
+      - path: hip/L_thigh
+        weight: 1
+      - path: hip/L_thigh/L_knee
+        weight: 1
+      - path: hip/L_thigh/L_knee/L_ankle
+        weight: 1
+      - path: hip/L_thigh/L_knee/L_ankle/L_toe
+        weight: 1
+      - path: hip/R_thigh
+        weight: 1
+      - path: hip/R_thigh/R_knee
+        weight: 1
+      - path: hip/R_thigh/R_knee/R_ankle
+        weight: 1
+      - path: hip/R_thigh/R_knee/R_ankle/R_toe
+        weight: 1
+      - path: hip/sprine_2
+        weight: 1
+      - path: hip/sprine_2/chest_2
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm/L_elbow
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm/L_elbow/L_wList
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm/L_elbow/L_wList/L_hand_2
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm/L_elbow/L_wList/L_hand_2/L_hand_1
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm/L_elbow/L_wList/L_thumb_1
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm/L_elbow/L_wList/L_thumb_1/L_thumb_2
+        weight: 1
+      - path: hip/sprine_2/chest_2/L_arm/L_elbow/L_wList/L_thumb_1/L_thumb_2/L_thumb_3
+        weight: 1
+      - path: hip/sprine_2/chest_2/neck_2
+        weight: 1
+      - path: hip/sprine_2/chest_2/neck_2/head
+        weight: 1
+      - path: hip/sprine_2/chest_2/neck_2/head/jaw
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm/R_elbow
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm/R_elbow/R_wrist/R_hand_2
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm/R_elbow/R_wrist/R_hand_2/R_hand_1
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm/R_elbow/R_wrist/R_thumb_1
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm/R_elbow/R_wrist/R_thumb_1/R_thumb_2
+        weight: 1
+      - path: hip/sprine_2/chest_2/R_arm/R_elbow/R_wrist/R_thumb_1/R_thumb_2/R_thumb_3
+        weight: 1
+      - path: L_eyeball
+        weight: 1
+      - path: R_eyeball
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 175
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0c1ab00536c98b345856b07c1ec806d2,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
